@@ -3,9 +3,9 @@ Official website of Portfolio Management Application
 
 - [x] Header- Done -but logo pending
 - [x] Hero -
-- [ ] Why?
-- [ ] Features
-- [ ] How it works
-- [ ] Tech Stack
-- [ ] FAQ
-- [x] Footer -Done
+- [x] Why?
+- [x] Features
+- [x] How it works
+- [x] Tech Stack
+- [x] FAQ
+- [x] Footer

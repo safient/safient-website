@@ -1,9 +1,14 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
-const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   purge: {
-    content: ['./pages/**/*.js', './components/**/*.js', './layouts/**/*.js', './lib/**/*.js'],
+    content: [
+      './pages/**/*.js',
+      './components/**/*.js',
+      './layouts/**/*.js',
+      './lib/**/*.js',
+    ],
     options: {
       safelist: ['type'], // [type='checkbox']
     },
@@ -21,7 +26,7 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['Josefin Sans', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         blue: colors.lightBlue,
@@ -152,4 +157,4 @@ module.exports = {
     typography: ['dark'],
   },
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
-}
+};

@@ -1,23 +1,19 @@
-import Link from '@/components/Link'
-import { PageSeo } from '@/components/SEO'
-import Tag from '@/components/Tag'
-import siteMetadata from '@/data/siteMetadata'
-import { getAllFilesFrontMatter } from '@/lib/mdx'
-import Hero from '../components/Hero'
+import Link from '@/components/Link';
 
-const MAX_DISPLAY = 5
-const postDateTemplate = { year: 'numeric', month: 'long', day: 'numeric' }
+import Hero from '../components/Hero';
+import Why from '../components/Why';
+import Features from '../components/Features';
+import How from '../components/How';
+import Faq from '../components/FAQ/Faq';
 
-export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter('blog')
-
-  return { props: { posts } }
-}
-
-export default function Home({ posts }) {
+export default function Home() {
   return (
     <>
-    <Hero/>
+      <Hero />
+      <Why />
+      <Features />
+      <How />
+      <Faq />
     </>
-  )
+  );
 }

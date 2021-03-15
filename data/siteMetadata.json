@@ -1,8 +1,8 @@
 {
-  "title": "Next.js Starter Blog",
-  "author": "Tails Azimuth",
-  "headerTitle": "TailwindBlog",
-  "description": "A blog created with Next.js and Tailwind.css",
+  "title": "Portex",
+  "author": "Consenso Labs",
+  "headerTitle": "Portex",
+  "description": "A website created with Next.js and Tailwind.css",
   "language": "en-us",
   "siteUrl": "https://tailwind-nextjs-starter-blog.vercel.app",
   "siteRepo": "https://github.com/timlrx/tailwind-nextjs-starter-blog",

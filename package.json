@@ -16,6 +16,7 @@
     "@next/mdx": "^10.0.5",
     "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/typography": "^0.3.1",
+    "aos": "^2.3.4",
     "autoprefixer": "^10.1.0",
     "gray-matter": "^4.0.2",
     "image-size": "0.9.3",
@@ -39,13 +40,11 @@
   "devDependencies": {
     "@next/bundle-analyzer": "^10.0.0",
     "@svgr/webpack": "^5.5.0",
-    
     "file-loader": "^6.0.0",
     "globby": "11.0.1",
     "husky": "^4.3.7",
     "lint-staged": "^10.5.3",
     "next-compose-plugins": "^2.2.1",
-   
     "rehype": "11.0.0",
     "remark-frontmatter": "3.0.0",
     "remark-parse": "9.0.0",
