@@ -1,5 +1,5 @@
 {
-  "name": "next-starter-tailwind",
+  "name": "Portex Landing page",
   "version": "2.0.0",
   "description": "Next.js starter styled with Tailwind CSS",
   "main": "index.js",
@@ -10,14 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taylorbryant/next-starter-tailwind.git"
+    "url": "https://github.com/Koushith/Portex-Official"
   },
   "author": "Taylor Bryant",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/taylorbryant/next-starter-tailwind/issues"
-  },
-  "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
+  
   "dependencies": {
     "next": "10.0.7",
     "react": "17.0.1",
