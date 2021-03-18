@@ -4,13 +4,12 @@
   "description": "Next.js starter styled with Tailwind CSS",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
  
-  "author": "Taylor Bryant",
-  "license": "MIT",
+
   
   "dependencies": {
     "next": "10.0.7",
