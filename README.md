@@ -9,8 +9,8 @@ Official website of Portfolio Management Application
 - [x] Tech Stack
 - [x] FAQ
 - [x] Footer
-
-- [ ]Fix broken links
+- [ ] Mobile Menu toggle
+- [ ] Fix broken links
 - [ ] Check Typos
-- [ ]update contents
+- [ ] update contents
 - [x] Update meta data 
