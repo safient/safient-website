@@ -71,7 +71,7 @@
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  background-image: url('/static/images/down.svg');
+  background-image: url('/down.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

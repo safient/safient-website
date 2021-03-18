@@ -4,6 +4,7 @@ import Why from '../components/Why';
 import Features from '../components/Features';
 import How from '../components/How';
 import Faq from '../components/FAQ/Faq';
+import Cta from '../components/Cta';
 
 export default function IndexPage() {
   return (
@@ -12,7 +13,9 @@ export default function IndexPage() {
       <Why />
       <Features />
       <How />
+
       <Faq />
+      <Cta />
     </div>
   );
 }

@@ -1,10 +1,12 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className='text-gray-700 body-font bg-gray-900'>
       <div className='container px-24 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col '>
         <div className='flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first mobile-footer'>
           <div className='lg:w-1/4 md:w-1/2 w-full px-4'>
-            <h2 className='title-font font-medium text- tracking-widest text-sm mb-3'>
+            <h2 className='title-font font-medium text-white tracking-widest text-sm mb-3'>
               Products
             </h2>
             <nav className='list-none mb-10 font-normal '>
@@ -74,13 +76,14 @@ export default function Footer() {
               </li>
 
               <li>
-                <a
-                  href='https://angel.co/company/consensolabs/jobs'
-                  target='_blank'
-                  className='text-gray-400 hover:text-gray-800 cursor-pointer'
-                >
-                  Career
-                </a>
+                <Link href='https://angel.co/company/consensolabs/jobs'>
+                  <a
+                    className='text-gray-400 hover:text-gray-800 cursor-pointer'
+                    target='_blank'
+                  >
+                    Career
+                  </a>
+                </Link>
               </li>
             </nav>
           </div>
