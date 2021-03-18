@@ -2,7 +2,7 @@ import React from 'react';
 
 function How() {
   return (
-    <section className='text-gray-600 body-font'>
+    <section className='text-gray-600 body-font  bg-gray-900'>
       <div className='container px-5 py-24 mx-auto'>
         <div className='text-center mb-20'>
           <h1 className='sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4'>

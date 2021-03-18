@@ -1,24 +1,22 @@
-import '@/css/tailwind.css';
-
-import { ThemeProvider } from 'next-themes';
-import { DefaultSeo } from 'next-seo';
+import '../css/index.css';
 import Head from 'next/head';
-
-import { SEO } from '@/components/SEO';
-import LayoutWrapper from '@/components/LayoutWrapper';
-
+import Layout from '@components/layout';
 import '../components/FAQ/faq.css';
 
-export default function App({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider attribute='class'>
+    <Layout>
       <Head>
-        <meta content='width=device-width, initial-scale=1' name='viewport' />
+        <title>Portex</title>
+        <meta
+          name='Description'
+          content='A Next.js starter styled using Tailwind CSS.'
+        />
       </Head>
-      <DefaultSeo {...SEO} />
-      <LayoutWrapper>
-        <Component {...pageProps} />
-      </LayoutWrapper>
-    </ThemeProvider>
+
+      <Component {...pageProps} />
+    </Layout>
   );
 }
+
+export default MyApp;
