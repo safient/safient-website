@@ -14,8 +14,8 @@ export default function Header() {
         </a>
         <nav class='md:ml-auto flex flex-wrap items-center text-white justify-center'>
           <a class='mr-5 hover:text-gray-900'>Home</a>
-          <a class='mr-5 hover:text-gray-900'>Developers</a>
-          <a class='mr-5 hover:text-gray-900'>Roadmap</a>
+          <a class='mr-5 hover:text-gray-900' href="https://github.com/koshikraj/portex" target="_blank">Developers</a>
+          <a class='mr-5 hover:text-gray-900' href="https://blog.consensolabs.com/tag/portex" target="_blank">Blog</a>
         </nav>
         <button class='bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow'>
           App

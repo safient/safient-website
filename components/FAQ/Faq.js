@@ -5,33 +5,34 @@ import FaqComponent from './faqComponent';
 function Faq() {
   const [faqs, setfaqs] = useState([
     {
-      question: 'Who can be part of the Arbchain platform?',
+      question: 'Who should use Portex?',
       answer:
-        'Any stakeholder (Party, Arbitrator, Court, Witness, Expert, Registrar) can register an be part of the platform',
+        'If you want to store and exchange your crypto portflio information confidentially, Portex is for you',
       open: false,
     },
     {
-      question: 'Are the documents uploaded on the platform secure?',
+      question: 'Where is the portfolio information stored?',
       answer:
-        'Yes, we use the safest encryption techniques to ensure that the documents are accessed only by the selected parties',
+        <div>Encrypted portfolio information is stored on IPFS decentralized data storage using <a target="_blank" href="https://www.ceramic.network/" style={{textDecoration: "underline"}}>Ceramic Network </a> and 
+        <a target="_blank" href="https://www.ceramic.network/" style={{textDecoration: "underline"}}> Textile ThreadDb</a>.</div>,
       open: false,
     },
     {
-      question: 'Does it support all the arbitration procedures?',
+      question: 'Who can view my encryped portfolio?',
       answer:
-        'Although our platform is configurable with any arbitration proceeding, currently it is built to support LCIA institute.',
+        'Your portfolio is visible to everyone that you have given access to.',
       open: false,
     },
     {
-      question: 'Are the awards generated on the platform legally binding?',
+      question: 'Do I need to reshare the portfolio when I update it?',
       answer:
-        'Yes, the award is legally compliant and binding like the conventional awards, Along with this, our platform simplifies the award generations and guaranties a quicker resolution.',
+        'No, since the same encryption key is used, you do not need to reshare the key or the portfolio.',
       open: false,
     },
     {
-      question: 'Does Arbchain use smart contracts?',
+      question: 'Can I revoke the acess to my portfolio?',
       answer:
-        'Yes, Arbchain is built on Ethereum Enterprise platform called Hyperledger Besu and executes smart contracts developed in Solidity language',
+        'Yes, you can update the key and revoke the access to all or selective user (Coming soon)',
       open: false,
     },
   ]);

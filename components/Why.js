@@ -9,7 +9,7 @@ function Why() {
             Why Portex?
           </h1>
           <p className='mb-8 leading-relaxed'>
-            Most of the existing management tools are managed by services that
+            Most of the existing portfolio management tools are managed by services that
             don't guarantee complete confidentiality. Even the portfolio tools
             that guarantee don't have a mechanism to exchange and share it with
             other users in a secure manner. We feel that it can be solved with

@@ -5,12 +5,10 @@ function Features() {
     <div className='py-12 my-16 bg-white'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='lg:text-center'>
-          <h2 className='text-base text-indigo-600 font-semibold tracking-wide uppercase'>
+          <h1 className='text-base text-indigo-600 font-semibold tracking-wide uppercase'>
             Features
-          </h2>
-          <p className='mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl'>
-            A better way to Share Confidencial Information.
-          </p>
+          </h1>
+     
         </div>
 
         <div className='mt-20'>
@@ -35,13 +33,11 @@ function Features() {
                   </svg>
                 </div>
                 <p className='ml-16 text-lg leading-6 font-medium text-gray-900'>
-                  Competitive exchange rates
+                  Encrypted Portfolio
                 </p>
               </dt>
               <dd className='mt-2 ml-16 text-base text-gray-500'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                All the crypto portfolio information is encrypted with an AES key to which only the user has access to.
               </dd>
             </div>
 
@@ -65,13 +61,12 @@ function Features() {
                   </svg>
                 </div>
                 <p className='ml-16 text-lg leading-6 font-medium text-gray-900'>
-                  No hidden fees
+                  Seamless Integration
                 </p>
               </dt>
               <dd className='mt-2 ml-16 text-base text-gray-500'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+              Eventhough the portfolios are confidential, they are stored in decentralized storage 
+              that can be accessed and integrated with any application.
               </dd>
             </div>
 
@@ -95,13 +90,11 @@ function Features() {
                   </svg>
                 </div>
                 <p className='ml-16 text-lg leading-6 font-medium text-gray-900'>
-                  Transfers are instant
+                  Confidential Exchange
                 </p>
               </dt>
               <dd className='mt-2 ml-16 text-base text-gray-500'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                The encrypted portfolio is exchanged with other users by confidentially sharing the encryption key.
               </dd>
             </div>
 
@@ -125,13 +118,12 @@ function Features() {
                   </svg>
                 </div>
                 <p className='ml-16 text-lg leading-6 font-medium text-gray-900'>
-                  Mobile notifications
+                  Portfolio Tracker
                 </p>
               </dt>
               <dd className='mt-2 ml-16 text-base text-gray-500'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Tracks all the assets owned by crypto portfolio accounts  <br/>
+                (Coming soon).
               </dd>
             </div>
           </dl>
