@@ -42,7 +42,7 @@ export default function Timeline() {
   return (
     <div className='container mx-auto px-32 py-8 bg-gray-50'>
       <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-10 mt-8 text-black dark:text-white'>
-        Timeline
+        Where it all Started?
       </h3>
       <Year>2021-Feb</Year>
       <ul>
