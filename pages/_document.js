@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -8,8 +8,10 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
-        <Head />
+      <Html lang='en'>
+        <Head>
+          <link rel=' icon' href='/favicon.ico' />
+        </Head>
         <body>
           <Main />
           <NextScript />
