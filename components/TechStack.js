@@ -58,7 +58,7 @@ function TechStack() {
           </h1>
         </div>
         <div className='flex flex-wrap -m-4 text-center'>
-          <div className='p-4 md:w-1/4 sm:w-1/2 w-full'>
+          <a className='p-4 md:w-1/4 sm:w-1/2 w-full' href="https://filecoin.io/" target="_blank">
             <div
               className='border-2 border-gray-200 px-4 py-6 rounded-lg centered'
               style={{
@@ -71,11 +71,11 @@ function TechStack() {
               <img src='/images/filecoin.svg' width='70px' alt='' srcset='' />
 
               <p className='leading-relaxed mt-5'>
-                Filecoin + Textile Hub, Powergate
+                Filecoin + Textile Hub
               </p>
             </div>
-          </div>
-          <div className='p-4 md:w-1/4 sm:w-1/2 w-full'>
+          </a>
+          <a className='p-4 md:w-1/4 sm:w-1/2 w-full' href="https://textile.io/" target="_blank">
             <div
               className='border-2 border-gray-200 px-4 py-6 rounded-lg'
               style={{
@@ -96,8 +96,8 @@ function TechStack() {
 
               <p className='leading-relaxed mt-5'>Textile ThreadDB</p>
             </div>
-          </div>
-          <div className='p-4 md:w-1/4 sm:w-1/2 w-full'>
+          </a>
+          <a className='p-4 md:w-1/4 sm:w-1/2 w-full' href="http://idx.xyz/" target="_blank">
             <div
               className='border-2 border-gray-200 px-4 py-6 rounded-lg'
               style={{
@@ -110,8 +110,8 @@ function TechStack() {
               <img src='/images/idx.svg' width='140px' alt='' srcset='' />
               <p className='leading-relaxed mt-5'>Ceramic IDX</p>
             </div>
-          </div>
-          <div className='p-4 md:w-1/4 sm:w-1/2 w-full'>
+          </a>
+          <a className='p-4 md:w-1/4 sm:w-1/2 w-full' href="https://magic.link/" target="_blank">
             <div
               className='border-2 border-gray-200 px-4 py-6 rounded-lg'
               style={{
@@ -125,7 +125,7 @@ function TechStack() {
 
               <p className='leading-relaxed mt-5'>Magic Link</p>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>

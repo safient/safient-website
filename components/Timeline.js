@@ -42,25 +42,38 @@ export default function Timeline() {
   return (
     <div className='container mx-auto px-32 py-8 bg-gray-50'>
       <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-10 mt-8 text-black dark:text-white'>
-        Where it all Started?
+        What are we upto ? 
       </h3>
       <Year>2021-Feb</Year>
       <ul>
-        <Step title='Started as a module for our arbitration project'>
-          Started as a part of ETHDenver Hackathon
+        <Step title='Genesis of Portex at ETHDenver'>
+        The first prototype of Portex was <a href="https://devfolio.co/submissions/portex-7c58" target="_blank" style={{textDecoration: "underline"}}>developed at ETHDenver 2021 </a> where we gained a lot of traction for the implementation and was recognized as one of the top 20 hacks 🎊 . 
         </Step>
       </ul>
       <Divider />
       <Year>2021- March</Year>
       <ul>
-        <Step title='Architeture Rewamp-✨'>
-          Rework on the Architeture and Implementation
+        <Step title='Architeture Revamp ✨'>
+          <p>The pouring positive feedbacks to the idea and implementation made us continue our efforts to keep building.
+           We planned all the features, integrations and revamped our architecture.
+          </p>
+          <p>
+             We have recently released an <b>alpha</b> version of Portex with Magic link authentication. You can check it out at: <a href="https://app.portex.xyz" target="_blank" style={{textDecoration: "underline"}} >https://app.portex.xyz </a>    
+          </p>
         </Step>
       </ul>
       <Divider />
-      <Year>2021 -Q3</Year>
+      <Year>2021 -Q2</Year>
       <ul>
-        <Step title='TBU'>TBU</Step>
+        <Step title='Beta Release'>
+        Beta release for the community. Features include:
+        <ul>
+          <li> - Integration with interoperable Ceramic Network profiles</li>
+          <li> - Verify and link social media handles</li>
+          <li> - Well tested Authentication flow</li>
+          <li> - Portfolio tracker for Ethereum, Bitcoin and BSC addresses</li>
+        </ul></Step>
+        
       </ul>
       <Divider />
     </div>

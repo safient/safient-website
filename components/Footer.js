@@ -26,15 +26,6 @@ export default function Footer() {
                   <a target='_black'>Team</a>
                 </Link>
               </li>
-              <li>
-                <a
-                  href='https://gitfunded.consensolabs.com/docs/overview'
-                  target='_blank'
-                  className='text-gray-400 hover:text-gray-800 cursor-pointer'
-                >
-                  Terms & Services
-                </a>
-              </li>
             </nav>
           </div>
 
@@ -46,11 +37,6 @@ export default function Footer() {
               <li>
                 <a className='text-gray-400 hover:text-gray-800 cursor-pointer'>
                   Documentation
-                </a>
-              </li>
-              <li>
-                <a className='text-gray-400 hover:text-gray-800 cursor-pointer'>
-                  Whitepaper
                 </a>
               </li>
               <li>
@@ -97,7 +83,17 @@ export default function Footer() {
             </h2>
             <nav className='list-none mb-10'>
               <li>
-                <Link href='https://angel.co/company/consensolabs/jobs'>
+                <Link href='https://twitter.com/portex_app'>
+                  <a
+                    className='text-gray-400 hover:text-gray-800 cursor-pointer'
+                    target='_blank'
+                  >
+                    Twitter
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='https://discord.gg/tttGQAwuZx'>
                   <a
                     className='text-gray-400 hover:text-gray-800 cursor-pointer'
                     target='_blank'
@@ -107,7 +103,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href='https://blog.consensolabs.com'>
+                <Link href='https://blog.consensolabs.com/tag/portex'>
                   <a
                     className='text-gray-400 hover:text-gray-800 cursor-pointer'
                     target='_blank'
@@ -143,7 +139,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href='https://twitter.com/consensolabs'
+              href='https://twitter.com/portex_app'
               target='_blank'
               className='ml-3 text-gray-500 cursor-pointer'
             >

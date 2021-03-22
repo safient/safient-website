@@ -16,7 +16,7 @@ function Hero() {
             <polygon points='50,0 100,0 50,100 0,100' />
           </svg>
 
-          <div className='absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden'>
+          {/* <div className='absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden'>
             <div className='rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden'>
               <div className='px-5 pt-4 flex items-center justify-between'>
                 <div>
@@ -73,7 +73,7 @@ function Hero() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <main className='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'>
             <div className='sm:text-center lg:text-left'>
@@ -102,7 +102,7 @@ function Hero() {
                   </Link>
                 </div>
                 <div className='mt-3 sm:mt-0 sm:ml-3'>
-                  <Link href='https://blog.consensolabs.com/portex-textile-thread/'>
+                  <Link href='https://blog.consensolabs.com/tag/portex/'>
                     <a
                       target='_next'
                       className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10'

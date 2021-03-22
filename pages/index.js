@@ -11,7 +11,7 @@ import Timeline from '@components/Timeline';
 
 export default function IndexPage() {
   return (
-    <div className=' '>
+    <div id='top'>
       <Header />
       <Hero />
       <Why />
