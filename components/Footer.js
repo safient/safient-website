@@ -7,25 +7,24 @@ export default function Footer() {
         <div className='flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first mobile-footer'>
           <div className='lg:w-1/4 md:w-1/2 w-full px-4'>
             <h2 className='title-font font-medium text-white tracking-widest text-sm mb-3'>
-              Products
+              About Us
             </h2>
             <nav className='list-none mb-10 font-normal '>
               <li>
                 <a
-                  href='#'
+                  href='https://consensolabs.com/#/about'
                   className='text-gray-400 hover:text-gray-800 cursor-pointer'
                 >
-                  Arbchain
+                  <a target='_blank'>About</a>
                 </a>
               </li>
               <li>
-                <a
-                  href='https://syndlend.com/'
-                  target='_black'
+                <Link
+                  href='https://consensolabs.com/#/team/'
                   className='text-gray-400 hover:text-gray-800 cursor-pointer'
                 >
-                  Syndlend
-                </a>
+                  <a target='_black'>Team</a>
+                </Link>
               </li>
               <li>
                 <a
@@ -33,7 +32,7 @@ export default function Footer() {
                   target='_blank'
                   className='text-gray-400 hover:text-gray-800 cursor-pointer'
                 >
-                  GitFunded
+                  Terms & Services
                 </a>
               </li>
             </nav>
@@ -55,24 +54,28 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a className='text-gray-400 hover:text-gray-800 cursor-pointer'>
-                  Downloads
-                </a>
+                <Link href='https://github.com/koshikraj/portex'>
+                  <a
+                    target='_blank'
+                    className='text-gray-400 hover:text-gray-800 cursor-pointer'
+                  >
+                    Github
+                  </a>
+                </Link>
               </li>
             </nav>
           </div>
           <div className='lg:w-1/4 md:w-1/2 w-full px-4'>
             <h2 className='title-font font-medium text-white tracking-widest text-sm mb-3'>
-              Company
+              Contact Us
             </h2>
             <nav className='list-none mb-10'>
               <li>
-                <a
-                  to='/about'
-                  className='text-gray-400 hover:text-gray-800 cursor-pointer'
-                >
-                  About
-                </a>
+                <Link href='https://www.consensolabs.com/contact'>
+                  <a className='text-gray-400 hover:text-gray-800 cursor-pointer'>
+                    Contact
+                  </a>
+                </Link>
               </li>
 
               <li>
@@ -90,13 +93,29 @@ export default function Footer() {
 
           <div className='lg:w-1/4 md:w-1/2 w-full px-4'>
             <h2 className='title-font font-medium text-white tracking-widest text-sm mb-3'>
-              Address
+              Community
             </h2>
             <nav className='list-none mb-10'>
-              <p className='text-gray-400 '>
-                91springboard, 512/10, Service Lane, Outer Ring Rd, Mahadevpura
-                Bengaluru, Karnataka, 560048
-              </p>
+              <li>
+                <Link href='https://angel.co/company/consensolabs/jobs'>
+                  <a
+                    className='text-gray-400 hover:text-gray-800 cursor-pointer'
+                    target='_blank'
+                  >
+                    Discord
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='https://blog.consensolabs.com'>
+                  <a
+                    className='text-gray-400 hover:text-gray-800 cursor-pointer'
+                    target='_blank'
+                  >
+                    Blog
+                  </a>
+                </Link>
+              </li>
             </nav>
           </div>
         </div>
