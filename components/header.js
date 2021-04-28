@@ -17,21 +17,21 @@ export default function Header() {
           <a class='mr-5 hover:text-gray-900' href="#top">Home</a>
           <a
             class='mr-5 hover:text-gray-900'
-            href='https://github.com/koshikraj/portex'
+            href='https://github.com/getsafex'
             target='_blank'
           >
             Developers
           </a>
           <a
             class='mr-5 hover:text-gray-900'
-            href='https://blog.consensolabs.com/tag/portex'
+            href='https://blog.consensolabs.com/tag/safex'
             target='_blank'
           >
             Blog
           </a>
         </nav>
-        <button class='bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow'>
-          <a href='https://app.portex.xyz' target='_next'>
+        <button class='bg-violet hover:bg-gray-100 hover:text-gray-800 text-gray-100 font-semibold py-2 px-7 border border-gray-100 rounded shadow'>
+          <a href='https://app.getsafex.co' target='_next'>
             App
           </a>
         </button>

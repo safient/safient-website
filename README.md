@@ -1,16 +1,9 @@
-Portex-Official
-Official website of Portfolio Management Application
+## Safex website
 
-- [x] Header- Done -but logo pending
-- [x] Hero -
-- [x] Why?
-- [x] Features
-- [x] How it works
-- [x] Tech Stack
-- [x] FAQ
-- [x] Footer
-- [ ] Mobile Menu toggle
-- [ ] Fix broken links
-- [ ] Check Typos
-- [ ] update contents
-- [x] Update meta data 
+Official website of Safex project
+
+### A few links
+* [Website](https://getsafex.co)
+* [Web App](https://app.getsafex.co)
+* [Twitter](https://twitter.con/getsafex)
+* [Discord](https://discord.gg/tttGQAwuZx)

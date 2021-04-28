@@ -8,6 +8,7 @@ import Cta from '../components/Cta';
 import TechStack from '@components/TechStack';
 import Header from '@components/header';
 import Timeline from '@components/Timeline';
+import Resources from '@components/Resources';
 
 export default function IndexPage() {
   return (
@@ -18,6 +19,7 @@ export default function IndexPage() {
       <Features />
       <How />
       <TechStack />
+      <Resources />
       <Timeline />
       <Faq />
       <Cta />

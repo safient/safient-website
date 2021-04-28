@@ -44,35 +44,50 @@ export default function Timeline() {
       <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-10 mt-8 text-black dark:text-white'>
         What are we upto ? 
       </h3>
-      <Year>2021-Feb</Year>
+      <Year>2020 - Q4</Year>
       <ul>
-        <Step title='Genesis of Portex at ETHDenver'>
-        The first prototype of Portex was <a href="https://devfolio.co/submissions/portex-7c58" target="_blank" style={{textDecoration: "underline"}}>developed at ETHDenver 2021 </a> where we gained a lot of traction for the implementation and was recognized as one of the top 20 hacks 🎊 . 
+        <Step title='Safex concept ideation 💡'>
+          <ul>
+          <li> - We began our user research for the problem and solution that we deviced for crypto asset inheritance. </li>
+          <li> - Evaluated the technical and economical feasibility of the solution </li>
+          </ul>
+          
         </Step>
       </ul>
       <Divider />
-      <Year>2021- March</Year>
+      <Year>2021 - Feb</Year>
       <ul>
-        <Step title='Architeture Revamp ✨'>
-          <p>The pouring positive feedbacks to the idea and implementation made us continue our efforts to keep building.
-           We planned all the features, integrations and revamped our architecture.
-          </p>
-          <p>
-             We have recently released an <b>alpha</b> version of Portex with Magic link authentication. You can check it out at: <a href="https://app.portex.xyz" target="_blank" style={{textDecoration: "underline"}} >https://app.portex.xyz </a>    
+        <Step title='Genesis of a sister product of Safex at ETHDenver 🚀'>
+        We built a confidential portfolio sharing application (<a href="https://portex.xyz" target="_blank" style={{textDecoration: "underline"}}>Portex</a>) at <a href="https://devfolio.co/submissions/portex-7c58" target="_blank" style={{textDecoration: "underline"}}>ETHDenver 2021 </a> to validate the technical feasibility. Portex gained a lot of traction for the implementation and was recognized as one of the top 20 hacks 🎊 . 
+        </Step>
+      </ul>
+      <Divider />
+      <Year>2021 - April</Year>
+      <ul>
+        <Step title='Safex design and prototype ✨'>
+          <p>Taking all the feedbacks from our hackathon project, we started to design and prototype the solution for Safex.
+           We planned all the features, integrations and layed our architecture for our initial implementation.
           </p>
         </Step>
       </ul>
       <Divider />
-      <Year>2021 -Q2</Year>
+      <Year>2021 - Q2</Year>
       <ul>
-        <Step title='Beta Release'>
+        <Step title='Closed beta release'>
+        Closed beta release for the community. Features include:
+        <ul>
+          <li> - Secret sharing mechanism using guardians </li>
+          <li> - Inheritance claims using Kleros </li>
+          <li> - Identity management for users </li>
+        </ul>
+        </Step>
+        <Step title='Beta release'>
         Beta release for the community. Features include:
         <ul>
-          <li> - Integration with interoperable Ceramic Network profiles</li>
-          <li> - Verify and link social media handles</li>
-          <li> - Well tested Authentication flow</li>
-          <li> - Portfolio tracker for Ethereum, Bitcoin and BSC addresses</li>
-        </ul></Step>
+          <li> - Well tested and audited contracts for inheritance claims</li>
+          <li> - Well tested secret sharing with optimised incentivization mechanism</li>
+        </ul>
+        </Step>
         
       </ul>
       <Divider />

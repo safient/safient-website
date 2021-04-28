@@ -40,7 +40,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <Link href='https://github.com/koshikraj/portex'>
+                <Link href='https://github.com/getsafex'>
                   <a
                     target='_blank'
                     className='text-gray-400 hover:text-gray-800 cursor-pointer'
@@ -83,7 +83,7 @@ export default function Footer() {
             </h2>
             <nav className='list-none mb-10'>
               <li>
-                <Link href='https://twitter.com/portex_app'>
+                <Link href='https://twitter.com/getsafex'>
                   <a
                     className='text-gray-400 hover:text-gray-800 cursor-pointer'
                     target='_blank'
@@ -103,7 +103,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href='https://blog.consensolabs.com/tag/portex'>
+                <Link href='https://blog.consensolabs.com/tag/safex'>
                   <a
                     className='text-gray-400 hover:text-gray-800 cursor-pointer'
                     target='_blank'
@@ -119,7 +119,7 @@ export default function Footer() {
       <div className=' px-24 '>
         <div className='container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row'>
           <p className='text-white text-sm text-center sm:text-left'>
-            Portex © 2021
+            Safex © 2021
           </p>
           <span className='inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start cursor-pointer'>
             <a
@@ -139,7 +139,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href='https://twitter.com/portex_app'
+              href='https://twitter.com/getsafex'
               target='_blank'
               className='ml-3 text-gray-500 cursor-pointer'
             >

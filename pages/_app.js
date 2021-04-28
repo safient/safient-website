@@ -7,10 +7,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <title>Portex</title>
+        <title>Safex</title>
         <meta
           name='Description'
-          content='A Next.js starter styled using Tailwind CSS.'
+          content='Official website for Safex project.'
         />
       </Head>
 
