@@ -23,7 +23,7 @@ function Features() {
                 </p>
               </dt>
               <dd className='mt-2 ml-16 text-base text-gray-500'>
-              Backup your secrets on our trustless safes that can be only recivered by you at any time.
+              Backup your secrets on our trustless safes that can be only recovered by you at any time.
               </dd>
             </div>
 

@@ -99,7 +99,7 @@ function Hero() {
                 </span>
               </h1>
               <p className='mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
-                Exchange secrets securely and inveniently that help you to recover or inherit crypto assets without
+                Exchange secrets securely and conveniently that help you to recover or inherit crypto assets without
                 exposing it to any intermediaries.
               </p>
               <div className='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>

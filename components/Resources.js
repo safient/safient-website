@@ -24,8 +24,13 @@ function Resources() {
                 </p>
               </dt>
               <dd className='mt-2 ml-16 text-base text-gray-500'>
-              Safex maintains resources to help developers integrate their applications to seamlessly integrate with safes.
+              Safex maintains resources to help developers integrate their applications to seamlessly connect with safes tools and libraries.
               </dd>
+              <a href="https://resources.getsafex.co" target="_blank">
+              <p className='ml-16 py-2 text-base leading-6 text-indigo-700 text-gray-900'>
+                Safex development documentation 
+                </p>
+                </a>
             </div>
 
             <div className='relative'>
@@ -38,8 +43,13 @@ function Resources() {
                 </p>
               </dt>
               <dd className='mt-2 ml-16 text-base text-gray-500'>
-              Ensure that your safes are inherited by beneficiaries only incase of tragic events.
+              Individuals can use our community version to create a safe and inheritance plan right away.
               </dd>
+              <a href="https://app.getsafex.co" target="_blank">
+              <p className='ml-16 py-2 text-base leading-6 text-indigo-700 text-gray-900'>
+                Checkout the community version
+                </p>
+                </a>
             </div>
 
             <div className='relative'>
@@ -52,8 +62,12 @@ function Resources() {
                 </p>
               </dt>
               <dd className='mt-2 ml-16 text-base text-gray-500'>
-              The safes are protected and governed by completely decentralized guardians and arbitrators (Using Kleros) to ensure the highest degree of resilience. 
-              </dd>
+              We are working on our enterprise version to integrate with the existing crypto exchanges and custodial wallet services.</dd>
+              <a href="mailto:hello@getsafex.co" target="_blank">
+              <p className='ml-16 py-2 text-base leading-6 text-indigo-700 text-gray-900'>
+                Contact us for the business version
+                </p>
+                </a>
             </div>
 
           
