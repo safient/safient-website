@@ -1,11 +1,9 @@
 import '../css/index.css';
 import Head from 'next/head';
-import Layout from '@components/layout';
-import '../components/FAQ/faq.css';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <>
       <Head>
         <title>Safex</title>
         <meta
@@ -15,7 +13,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <Component {...pageProps} />
-    </Layout>
+    </>
   );
 }
 
