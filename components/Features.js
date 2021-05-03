@@ -77,7 +77,12 @@ export const Feature3 = () => {
         </div>
         <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
           <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <img src='/FeaturesIcons/tracker.svg' alt='' srcset='' />
+            <img
+              src='/FeaturesIcons/dispute.svg'
+              alt='dispuite'
+              srcset=''
+              width='24px'
+            />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
             Dispute resolution
@@ -93,7 +98,12 @@ export const Feature3 = () => {
         </div>
         <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
           <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <img src='/FeaturesIcons/tracker.svg' alt='' srcset='' />
+            <img
+              src='/FeaturesIcons/shared.svg'
+              alt='shared'
+              srcset=''
+              width='24px'
+            />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
             Share portfolio
@@ -110,7 +120,12 @@ export const Feature3 = () => {
         </div>
         <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
           <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <img src='/FeaturesIcons/tracker.svg' alt='' srcset='' />
+            <img
+              src='/FeaturesIcons/decentralized.svg'
+              alt='decentralized'
+              width='24px'
+              srcset=''
+            />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
             Decentralization - simplified
