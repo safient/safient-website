@@ -34,6 +34,9 @@ export const DevResources = () => {
       <div className='grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-3 sm:grid-cols-2'>
         <div className='duration-300 transform bg-white border-l-4 border-deep-purple-accent-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm text-gray-900'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
+              <img src='/images/code.svg' width='25px' alt='' srcset='' />
+            </div>
             <h6 className='mb-2 font-semibold leading-10'>Developers</h6>
             <p className='text-sm font-medium text-gray-800'>
               Safex maintains resources to help developers integrate their
@@ -49,6 +52,9 @@ export const DevResources = () => {
 
         <div className='duration-300 transform bg-white border-l-4 border-deep-purple-accent-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
+              <img src='/images/individual.svg' width='25px' alt='' srcset='' />
+            </div>
             <h6 className='mb-2 font-semibold leading-10'>Individuals</h6>
             <p className='text-sm text-gray-800 font-semibold'>
               Individuals can use our community version to create a safe and
@@ -64,6 +70,9 @@ export const DevResources = () => {
 
         <div className='duration-300 transform bg-white border-l-4 border-deep-purple-accent-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
+              <img src='/images/enterprise.svg' width='24px' alt='' srcset='' />
+            </div>
             <h6 className='mb-2 font-semibold leading-10'>Enterprises</h6>
             <p className='text-sm text-gray-800 font-semibold'>
               We are working on our enterprise version to integrate with the
