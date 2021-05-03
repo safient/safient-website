@@ -4,7 +4,7 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div class='px-4 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-30 bg-indigo-900 sticky top-0 z-50 text-white'>
+    <div class='px-4 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-30 bg-indigo-600 sticky top-0 z-50 text-white'>
       <div class='relative flex items-center justify-between'>
         <img src='/logo.svg' alt='' srcset='' />
         <ul class='flex items-center hidden space-x-8 lg:flex'>
@@ -41,7 +41,7 @@ export const Nav = () => {
           <li>
             <a
               href='/'
-              class='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-900 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none border border-gray-100'
+              class='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-600 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none border border-gray-100'
               aria-label='Sign up'
               title='Sign up'
             >
@@ -144,7 +144,7 @@ export const Nav = () => {
                     <li>
                       <a
                         href='/'
-                        class='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-900 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'
+                        class='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-600 hover:bg-indigo-600 focus:shadow-outline focus:outline-none'
                         aria-label='Sign up'
                         title='Sign up'
                       >

@@ -8,10 +8,10 @@ export const Header = () => {
           <div className='max-w-xl mb-6'>
             <h2 className='max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
               <span className=' xl:inline'>Secure crypto secret</span>
-              <span className=' text-indigo-900 xl:inline'> exchange </span>
+              <span className=' text-indigo-600 xl:inline'> Exchange </span>
               <span className=' xl:inline'>and</span>
-              <span className=' text-indigo-900 xl:inline'> inheritance </span>
-              <span className=' xl:inline'>protocol</span>
+              <span className='text-indigo-600 xl:inline'> Inheritance </span>
+              <span className=' xl:inline'>Protocol</span>
             </h2>
             <p className='text-base text-gray-700 md:text-lg'>
               Exchange secrets securely and conveniently that help you to
@@ -23,7 +23,7 @@ export const Header = () => {
             <Link href='https://app.getsafex.co/'>
               <a
                 target='_next'
-                className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-900 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'
+                className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-600 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'
               >
                 <span className='mr-3'>Try Now</span>
               </a>
@@ -42,8 +42,8 @@ export const Header = () => {
         <div className='relative lg:w-1/2'>
           <img
             className='object-cover w-full h-56 rounded shadow-lg sm:h-96'
-            src='/images/dashboard.jpg'
-            alt=''
+            src='/images/HeroImage.gif'
+            alt='image by Magicle- https://dribbble.com/shots/5051779-Crypto-Illustrations'
           />
           <a
             href='/'

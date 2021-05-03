@@ -40,19 +40,7 @@ export const Feature3 = () => {
       <div className='grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3 lg:px-20 '>
         <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
           <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <svg
-              className='w-10 h-10 text-deep-purple-accent-400'
-              stroke='currentColor'
-              viewBox='0 0 52 52'
-            >
-              <polygon
-                strokeWidth='3'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                fill='none'
-                points='29 13 14 29 25 29 23 39 38 23 27 23'
-              />
-            </svg>
+            <img src='/FeaturesIcons/encrypted.svg' alt='' srcset='' />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
             Secure safes
@@ -64,19 +52,7 @@ export const Feature3 = () => {
         </div>
         <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
           <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <svg
-              className='w-10 h-10 text-deep-purple-accent-400'
-              stroke='currentColor'
-              viewBox='0 0 52 52'
-            >
-              <polygon
-                strokeWidth='3'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                fill='none'
-                points='29 13 14 29 25 29 23 39 38 23 27 23'
-              />
-            </svg>
+            <img src='/FeaturesIcons/api.svg' alt='' srcset='' />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
             Convenient inheritance
@@ -88,19 +64,7 @@ export const Feature3 = () => {
         </div>
         <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
           <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <svg
-              className='w-10 h-10 text-deep-purple-accent-400'
-              stroke='currentColor'
-              viewBox='0 0 52 52'
-            >
-              <polygon
-                strokeWidth='3'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                fill='none'
-                points='29 13 14 29 25 29 23 39 38 23 27 23'
-              />
-            </svg>
+            <img src='/FeaturesIcons/confidential.svg' alt='' srcset='' />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
             Trustless recovery protocol
@@ -113,19 +77,7 @@ export const Feature3 = () => {
         </div>
         <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
           <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <svg
-              className='w-10 h-10 text-deep-purple-accent-400'
-              stroke='currentColor'
-              viewBox='0 0 52 52'
-            >
-              <polygon
-                strokeWidth='3'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                fill='none'
-                points='29 13 14 29 25 29 23 39 38 23 27 23'
-              />
-            </svg>
+            <img src='/FeaturesIcons/tracker.svg' alt='' srcset='' />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
             Dispute resolution
@@ -141,19 +93,7 @@ export const Feature3 = () => {
         </div>
         <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
           <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <svg
-              className='w-10 h-10 text-deep-purple-accent-400'
-              stroke='currentColor'
-              viewBox='0 0 52 52'
-            >
-              <polygon
-                strokeWidth='3'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                fill='none'
-                points='29 13 14 29 25 29 23 39 38 23 27 23'
-              />
-            </svg>
+            <img src='/FeaturesIcons/tracker.svg' alt='' srcset='' />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
             Share portfolio
@@ -170,19 +110,7 @@ export const Feature3 = () => {
         </div>
         <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
           <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <svg
-              className='w-10 h-10 text-deep-purple-accent-400'
-              stroke='currentColor'
-              viewBox='0 0 52 52'
-            >
-              <polygon
-                strokeWidth='3'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                fill='none'
-                points='29 13 14 29 25 29 23 39 38 23 27 23'
-              />
-            </svg>
+            <img src='/FeaturesIcons/tracker.svg' alt='' srcset='' />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
             Decentralization - simplified
