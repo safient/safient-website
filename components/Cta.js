@@ -5,10 +5,10 @@ export const Cta = () => {
         <div className='max-w-xl sm:mx-auto lg:max-w-2xl'>
           <div className='flex flex-col mb-16 sm:text-center sm:mb-0'>
             <a href='/' className='mb-6 sm:mx-auto'>
-              <div className='flex items-center justify-center w-12 h-12 rounded-full bg-teal-accent-400'>
+              <div className='flex items-center justify-center w-12 h-12 rounded-full bg-indigo-600'>
                 <svg
                   className='w-10 h-10 text-deep-purple-900'
-                  stroke='currentColor'
+                  stroke='#fff'
                   viewBox='0 0 52 52'
                 >
                   <polygon
@@ -26,7 +26,7 @@ export const Cta = () => {
                 <span className='relative inline-block'>
                   <svg
                     viewBox='0 0 52 24'
-                    fill='currentColor'
+                    fill='#4F46E5'
                     className='absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-deep-purple-accent-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block'
                   >
                     <defs>

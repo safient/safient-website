@@ -6,7 +6,7 @@ export const DevResources = () => {
           <span className='relative inline-block'>
             <svg
               viewBox='0 0 52 24'
-              fill='currentColor'
+              fill='#6B7280'
               className='absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block'
             >
               <defs>
@@ -32,7 +32,7 @@ export const DevResources = () => {
         </h2>
       </div>
       <div className='grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-3 sm:grid-cols-2'>
-        <div className='duration-300 transform bg-white border-l-4 border-deep-purple-accent-400 hover:-translate-y-2'>
+        <div className='duration-300 transform bg-white border-l-4 border-indigo-600 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm text-gray-900'>
             <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
               <img src='/images/code.svg' width='25px' alt='' srcset='' />
@@ -50,7 +50,7 @@ export const DevResources = () => {
           </div>
         </div>
 
-        <div className='duration-300 transform bg-white border-l-4 border-deep-purple-accent-400 hover:-translate-y-2'>
+        <div className='duration-300 transform bg-white border-l-4 border-indigo-600 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
             <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
               <img src='/images/individual.svg' width='25px' alt='' srcset='' />
@@ -68,7 +68,7 @@ export const DevResources = () => {
           </div>
         </div>
 
-        <div className='duration-300 transform bg-white border-l-4 border-deep-purple-accent-400 hover:-translate-y-2'>
+        <div className='duration-300 transform bg-white border-l-4 border-indigo-600 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
             <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
               <img src='/images/enterprise.svg' width='24px' alt='' srcset='' />

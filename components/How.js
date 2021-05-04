@@ -7,7 +7,7 @@ export const Step = () => {
           <span className='relative inline-block'>
             <svg
               viewBox='0 0 52 24'
-              fill='currentColor'
+              fill='#6B7280'
               className='absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block'
             >
               <defs>
@@ -36,9 +36,9 @@ export const Step = () => {
         </p>
       </div>
       <div className='grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3'>
-        <div className='p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-deep-purple-accent-100 hover:-translate-y-2'>
+        <div className='p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-indigo-600 hover:-translate-y-2'>
           <div className='flex items-center mb-2'>
-            <p className='flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400'>
+            <p className='flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-indigo-600'>
               1
             </p>
             <p className='text-lg font-bold leading-10 text-gray-900'>
@@ -51,9 +51,9 @@ export const Step = () => {
             Beneficiaries for the safe can be added at any time.
           </p>
         </div>
-        <div className='p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-deep-purple-accent-200 hover:-translate-y-2'>
+        <div className='p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-indigo-600 hover:-translate-y-2'>
           <div className='flex items-center mb-2'>
-            <p className='flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400'>
+            <p className='flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-indigo-600'>
               2
             </p>
             <p className='text-lg font-bold leading-5 text-gray-900'>
@@ -66,9 +66,9 @@ export const Step = () => {
             the safe at anytime.
           </p>
         </div>
-        <div className='relative p-5 duration-300 transform bg-white border-2 rounded shadow-sm border-deep-purple-accent-700 hover:-translate-y-2'>
+        <div className='relative p-5 duration-300 transform bg-white border-2 rounded shadow-sm border-indigo-600 hover:-translate-y-2'>
           <div className='flex items-center mb-2'>
-            <p className='flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400'>
+            <p className='flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-indigo-600'>
               3
             </p>
             <p className='text-lg font-bold leading-5 text-gray-900'>
@@ -79,7 +79,7 @@ export const Step = () => {
             Safe guardians will help recover the safes, quickly and safely after
             verifying the recovery claim.
           </p>
-          <p className='absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-deep-purple-accent-400 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10'>
+          <p className='absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-indigo-600 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10'>
             <svg
               className='text-white w-7'
               stroke='currentColor'

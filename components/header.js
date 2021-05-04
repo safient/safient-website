@@ -7,7 +7,7 @@ export const Header = () => {
         <div className='mb-10 lg:max-w-lg lg:pr-5 lg:mb-0'>
           <div className='max-w-xl mb-6'>
             <h2 className='max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
-              <span className=' xl:inline'>Secure crypto secret</span>
+              <span className='   xl:inline'>Secure crypto secret</span>
               <span className=' text-indigo-600 xl:inline'> Exchange </span>
               <span className=' xl:inline'>and</span>
               <span className='text-indigo-600 xl:inline'> Inheritance </span>
@@ -28,7 +28,7 @@ export const Header = () => {
                 <span className='mr-3'>Try Now</span>
               </a>
             </Link>
-            <Link href='https://blog.consensolabs.com/tag/safex/'>
+            <Link href='https://blog.consensolabs.com/portex-textile-thread'>
               <a
                 target='_next'
                 aria-label=''
@@ -42,7 +42,7 @@ export const Header = () => {
         <div className='relative lg:w-1/2'>
           <img
             className=' w-full h-56 rounded  sm:h-96'
-            src='/images/crypto.svg'
+            src='/images/hero.svg'
             alt='crypto'
           />
         </div>

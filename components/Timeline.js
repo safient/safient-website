@@ -10,7 +10,7 @@ const Year = ({ year, quater, heading, children }) => (
           >
             {year}
           </a>
-          <h4 className='text-gray-600 text-lg'>{quater}</h4>
+          <h4 className='text-indigo-600 text-lg'>{quater}</h4>
         </div>
       </div>
       <div className='sm:col-span-3 lg:col-span-2 text-gray-700'>
