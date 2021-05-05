@@ -1,28 +1,33 @@
-import Image from 'next/image';
-import Hero from '../components/Hero';
-import Why from '../components/Why';
-import Features from '../components/Features';
-import How from '../components/How';
-import Faq from '../components/FAQ/Faq';
-import Cta from '../components/Cta';
-import TechStack from '@components/TechStack';
-import Header from '@components/header';
-import Timeline from '@components/Timeline';
-import Resources from '@components/Resources';
+import React from 'react';
+import { Nav } from '@components/NavBar';
+import { Header } from '@components/header';
+import { Feature, Feature2, Feature3 } from '@components/Features';
+import { Step } from '@components/How';
+import { TechStack } from '@components/TechStack';
+import { DevResources } from '@components/Resources';
+import { TimeLine } from '@components/TimeLine';
+import { Cta } from '@components/Cta';
+import { Faq } from '@components/Faq';
+import { Footer } from '@components/Footer';
+import { Blog } from '@components/Blog';
 
-export default function IndexPage() {
+function IndexPage() {
   return (
     <div id='top'>
+      <Nav />
       <Header />
-      <Hero />
-      <Why />
-      <Features />
-      <How />
+
+      <Feature3 />
+      <Step />
       <TechStack />
-      <Resources />
-      <Timeline />
-      <Faq />
+      <DevResources />
+      <TimeLine />
+      {/* <Blog /> */}
       <Cta />
+      <Faq />
+      <Footer />
     </div>
   );
 }
+
+export default IndexPage;
