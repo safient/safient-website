@@ -6,11 +6,11 @@ export const Nav = () => {
   return (
     <div class='px-4 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-30 bg-indigo-600 sticky top-0 z-50 text-white'>
       <div class='relative flex items-center justify-between'>
-        <img src='/logo.svg' alt='' srcset='' />
+        <img src='/safexLogo.svg' alt='logo' width='100px' />
         <ul class='flex items-center hidden space-x-8 lg:flex'>
           <li>
             <a
-              href="#top"
+              href='#top'
               aria-label='Our product'
               title='Our product'
               class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
