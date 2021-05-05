@@ -14,7 +14,7 @@ export const Header = () => {
               <span className=' xl:inline'>Protocol</span>
             </h2>
             <p className='text-base text-gray-700 md:text-lg'>
-              Exchange secrets securely and conveniently that help you to
+              Exchange secrets securely and conveniently that help you
               recover or inherit crypto assets without exposing it to any
               intermediaries.
             </p>
@@ -23,16 +23,16 @@ export const Header = () => {
             <Link href='https://app.getsafex.co/'>
               <a
                 target='_next'
-                className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-600 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'
+                className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-600 hover:bg-indigo-700 focus:shadow-outline focus:outline-none'
               >
                 <span className='mr-3'>Try Now</span>
               </a>
             </Link>
-            <Link href='https://blog.consensolabs.com/portex-textile-thread'>
+            <Link href='https://resources.getsafex.co'>
               <a
                 target='_next'
                 aria-label=''
-                className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-indigo-900 transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-100 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none '
+                className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-indigo-900 transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-100 hover:bg-indigo-200 focus:shadow-outline focus:outline-none '
               >
                 Read More
               </a>

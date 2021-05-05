@@ -10,38 +10,38 @@ export const Nav = () => {
         <ul class='flex items-center hidden space-x-8 lg:flex'>
           <li>
             <a
-              href='/'
+              href="#top"
               aria-label='Our product'
               title='Our product'
-              class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'
+              class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
             >
               Home
             </a>
           </li>
           <li>
             <a
-              href='/'
+              href='https://resources.getsafex.co/'
               aria-label='Product pricing'
               title='Product pricing'
-              class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'
+              class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
             >
-              About
+              Blog
             </a>
           </li>
           <li>
             <a
-              href='/'
+              href='http://github.com/getsafex'
               aria-label='About us'
               title='About us'
-              class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'
+              class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
             >
               Developers
             </a>
           </li>
           <li>
             <a
-              href='/'
-              class='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-600 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none border border-gray-100'
+              href='http://app.getsafex.co/'
+              class='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-600  hover:bg-gray-100 hover:text-gray-900 focus:shadow-outline focus:outline-none border border-gray-100'
               aria-label='Sign up'
               title='Sign up'
             >
@@ -122,7 +122,7 @@ export const Nav = () => {
                   <ul class='space-y-4'>
                     <li>
                       <a
-                        href='/'
+                        href='http://github.com/getsafex'
                         aria-label='Our product'
                         title='Our product'
                         class='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
@@ -132,10 +132,10 @@ export const Nav = () => {
                     </li>
                     <li>
                       <a
-                        href='/'
+                        href='https://resources.getsafex.co/'
                         aria-label='Product pricing'
                         title='Product pricing'
-                        class='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                        class='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-gray-900'
                       >
                         Blog
                       </a>
@@ -143,7 +143,7 @@ export const Nav = () => {
 
                     <li>
                       <a
-                        href='/'
+                        href='https://app.getsafex.co'
                         class='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-600 hover:bg-indigo-600 focus:shadow-outline focus:outline-none'
                         aria-label='Sign up'
                         title='Sign up'

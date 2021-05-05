@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav } from '@components/NavBar';
-import { Header } from '@components/Header';
+import { Header } from '@components/header';
 import { Feature, Feature2, Feature3 } from '@components/Features';
 import { Step } from '@components/How';
 import { TechStack } from '@components/TechStack';
@@ -13,7 +13,7 @@ import { Blog } from '@components/Blog';
 
 function IndexPage() {
   return (
-    <>
+    <div id='top'>
       <Nav />
       <Header />
 
@@ -26,7 +26,7 @@ function IndexPage() {
       <Cta />
       <Faq />
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -42,7 +42,7 @@ export const Footer = () => {
               </p>
               <ul className='mt-2 space-y-2'>
                 <li>
-                  <a className='text-gray-400 hover:text-gray-800 cursor-pointer'>
+                  <a className='text-gray-400 hover:text-gray-800 cursor-pointer' href="https://docs.getsafex.co" target="_blank">
                     Documentation
                   </a>
                 </li>
