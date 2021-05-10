@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
         <title>Safex</title>
         <meta
           name='Description'
-          content='Official website for Safex project.'
+          content='Secure crypto secret exchange and inheritance protocol'
         />
       </Head>
 

@@ -30,11 +30,11 @@ export const Feature3 = () => {
           </span>{' '}
         </h2>
         <p className='text-base text-gray-700 md:text-lg'>
-          Safex promises to securely and conveniently store any critical
-          information that is needed to access and recover the assets in case of
-          any tragic events. Safex also provides a trustless yet safe way to
-          transfer and inherit the assets by close ones whenever such an
-          unfortunate scenario occurs.
+          Have you ever wondered how will your pass on your <b>valuable crypto assets </b> to your loved ones
+          in case of an unfortunate event or what happens when you no longer have access to your unsafe secret backup ? 
+          <br/> <br/>
+          Worry no more, Safex will help you securely manage all the critical information that is 
+          needed to access and recover the assets so that your loved ones can inherit them with <b>100 % surety </b> incase of any tragic event.
         </p>
       </div>
       <div className='grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3 lg:px-20 '>

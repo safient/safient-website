@@ -116,22 +116,18 @@ export const TimeLine = () => {
         </p>
       </Year>
 
-      <Year heading='Closed beta release' year='2021' quater='Q2'>
+      <Year heading='Closed beta release 🧪' year='2021' quater='Q2'>
         Closed beta release for the community. Features include:
         <ul>
           <li className='mt-3'> - Secret sharing mechanism using guardians </li>
+          <li> - Filecoin integration for durable safes </li>
           <li> - Inheritance claims using Kleros </li>
           <li> - Identity management for users </li>
         </ul>
-        <a
-          href='/'
-          aria-label='Article'
-          className='inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-700'
-        >
           <p className='font-medium text-gray-900 dark:text-gray-100 text-2xl mb-3 mt-8'>
-            Beta release for the community. Features include:
+            Beta release for the community 🚀
           </p>
-        </a>
+          Features include:
         <ul>
           <li> - Well tested and audited contracts for inheritance claims</li>
           <li>
