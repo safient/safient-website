@@ -42,7 +42,7 @@ export const DevResources = () => {
               safient maintains resources to help developers integrate their
               applications to seamlessly connect with safes tools and libraries.
             </p>
-            <a href='https://resources.safient.io' target='_blank'>
+            <a href='https://docs.safient.io' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900'>
                 safient development documentation
               </p>
