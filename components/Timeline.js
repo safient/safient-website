@@ -1,5 +1,5 @@
 const Year = ({ year, quater, heading, children }) => (
-  <div className='mb-10 border-t border-b divide-y bg-gray-50'>
+  <div className='mb-10  border-b divide-y bg-gray-50'>
     <div className='grid py-8 sm:grid-cols-4'>
       <div className='mb-4 ml-32 sm:mb-0'>
         <div className='space-y-1 text-xs font-semibold tracking-wide uppercase'>
@@ -65,7 +65,7 @@ export const TimeLine = () => {
         </h2>
       </div>
 
-      <Year heading='Safex concept ideation 💡' year='2020' quater='Q4'>
+      <Year heading='safient concept ideation 💡' year='2020' quater='Q4'>
         <ul>
           <li className='text-gray-700'>
             {' '}
@@ -80,7 +80,7 @@ export const TimeLine = () => {
       </Year>
 
       <Year
-        heading='Genesis of a sister product of Safex at ETHDenver 🚀'
+        heading='Genesis of a sister product of safient at ETHDenver 🚀'
         year='2021'
         quater='FEB'
       >
@@ -107,10 +107,14 @@ export const TimeLine = () => {
         </ul>
       </Year>
 
-      <Year heading='Safex design and prototype ✨' year='2021' quater='APRIL'>
+      <Year
+        heading='safient design and prototype ✨'
+        year='2021'
+        quater='APRIL'
+      >
         <p>
           Taking all the feedbacks from our hackathon project, we started to
-          design and prototype the solution for Safex. We planned all the
+          design and prototype the solution for safient. We planned all the
           features, integrations and layed our architecture for our initial
           implementation.
         </p>

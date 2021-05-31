@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav } from '@components/NavBar';
-import { Header } from '@components/header';
+import { Header } from '@components/Header';
 import { Feature, Feature2, Feature3 } from '@components/Features';
 import { Step } from '@components/How';
 import { TechStack } from '@components/TechStack';

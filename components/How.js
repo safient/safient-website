@@ -32,7 +32,8 @@ export const Step = () => {
           it Works?
         </h2>
         <p className='text-base text-gray-900 font-semibold md:text-lg'>
-          Safex follws three simple steps to claim or inherit the crypto assets.
+          safient follws three simple steps to claim or inherit the crypto
+          assets.
         </p>
       </div>
       <div className='grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3'>
@@ -62,8 +63,8 @@ export const Step = () => {
             </p>
           </div>
           <p className='text-sm text-gray-900 text-base mt-4'>
-            The safe owner or beneficiaries can request to claim or inherit
-            the safe at anytime.
+            The safe owner or beneficiaries can request to claim or inherit the
+            safe at anytime.
           </p>
         </div>
         <div className='relative p-5 duration-300 transform bg-white border-2 rounded shadow-sm border-indigo-600 hover:-translate-y-2'>
@@ -76,8 +77,8 @@ export const Step = () => {
             </p>
           </div>
           <p className='text-base text-gray-900  mt-4'>
-            The <b>trustless safe guardians</b> will help recover the safes, quickly and safely after
-            verifying the recovery claim.
+            The <b>trustless safe guardians</b> will help recover the safes,
+            quickly and safely after verifying the recovery claim.
           </p>
           <p className='absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-indigo-600 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10'>
             <svg

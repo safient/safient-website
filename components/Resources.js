@@ -26,7 +26,7 @@ export const DevResources = () => {
                 height='24'
               />
             </svg>
-            <span className='relative text-gray-900'>Safex</span>
+            <span className='relative text-gray-900'>Safient</span>
           </span>{' '}
           Resources
         </h2>
@@ -39,12 +39,12 @@ export const DevResources = () => {
             </div>
             <h6 className='mb-2 font-semibold leading-10'>Developers</h6>
             <p className='text-sm font-medium text-gray-800'>
-              Safex maintains resources to help developers integrate their
+              safient maintains resources to help developers integrate their
               applications to seamlessly connect with safes tools and libraries.
             </p>
-            <a href='https://resources.getsafex.co' target='_blank'>
+            <a href='https://docs.safient.io' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900'>
-                Safex development documentation
+                safient development documentation
               </p>
             </a>
           </div>
@@ -60,7 +60,7 @@ export const DevResources = () => {
               Individuals can use our community version to create a safe and
               inheritance plan right away.
             </p>
-            <a href='https://app.getsafex.co' target='_blank'>
+            <a href='https://app.safient.io' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900 '>
                 Checkout the community version
               </p>
@@ -78,7 +78,7 @@ export const DevResources = () => {
               We are working on our enterprise version to integrate with the
               existing crypto exchanges and custodial wallet services.
             </p>
-            <a href='mailto:hello@getsafex.co' target='_blank'>
+            <a href='mailto:hello@safient.io' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900'>
                 Contact us for the business version
               </p>
