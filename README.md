@@ -1,9 +1,9 @@
-## Safex website
+## Safient website
 
-Official website of Safex project
+Official website of Safient project
 
 ### A few links
-* [Website](https://getsafex.co)
-* [Web App](https://app.getsafex.co)
-* [Twitter](https://twitter.con/getsafex)
-* [Discord](https://discord.gg/tttGQAwuZx)
+* [Website](https://safient.co)
+* [Web App](https://app.safient.co)
+* [Twitter](https://twitter.con/safientio)
+* [Discord](https://discord.safient.io)

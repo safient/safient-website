@@ -44,14 +44,14 @@ export const Footer = () => {
                 <li>
                   <a
                     className='text-gray-400 hover:text-gray-800 cursor-pointer'
-                    href='https://docs.getsafient.co'
+                    href='https://docs.safient.co'
                     target='_blank'
                   >
                     Documentation
                   </a>
                 </li>
                 <li>
-                  <Link href='https://github.com/getsafient'>
+                  <Link href='https://github.com/safient'>
                     <a
                       target='_blank'
                       className='text-gray-400 hover:text-gray-800 cursor-pointer'
@@ -103,7 +103,7 @@ export const Footer = () => {
               </p>
               <ul className='mt-2 space-y-2'>
                 <li>
-                  <Link href='https://twitter.com/getsafient'>
+                  <Link href='https://twitter.com/safientio'>
                     <a
                       className='text-gray-400 hover:text-gray-800 cursor-pointer'
                       target='_blank'
@@ -113,7 +113,7 @@ export const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='https://discord.gg/tttGQAwuZx'>
+                  <Link href='https://discord.safient.io'>
                     <a
                       className='text-gray-400 hover:text-gray-800 cursor-pointer'
                       target='_blank'

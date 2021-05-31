@@ -28,7 +28,7 @@ export const Header = () => {
                 <span className='mr-3'>Try Now</span>
               </a>
             </Link>
-            <Link href='https://resources.getsafient.co'>
+            <Link href='https://resources.safient.io'>
               <a
                 target='_next'
                 aria-label=''

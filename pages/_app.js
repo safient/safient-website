@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Safex</title>
+        <title>Safient</title>
         <meta
           name='Description'
           content='Secure crypto secret exchange and inheritance protocol'
