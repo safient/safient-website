@@ -20,7 +20,7 @@ export const Nav = () => {
           </li>
           <li>
             <a
-              href='https://resources.getsafex.co/'
+              href='https://resources.safient.io/'
               aria-label='Product pricing'
               title='Product pricing'
               class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
@@ -30,7 +30,7 @@ export const Nav = () => {
           </li>
           <li>
             <a
-              href='http://github.com/getsafex'
+              href='http://github.com/safient'
               aria-label='About us'
               title='About us'
               class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
@@ -40,7 +40,7 @@ export const Nav = () => {
           </li>
           <li>
             <a
-              href='http://app.getsafex.co/'
+              href='http://app.safient.io/'
               class='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-600  hover:bg-gray-100 hover:text-gray-900 focus:shadow-outline focus:outline-none border border-gray-100'
               aria-label='Sign up'
               title='Sign up'
@@ -98,7 +98,7 @@ export const Nav = () => {
                         <rect x='14' y='11' width='7' height='12' />
                       </svg>
                       <span class='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-                        SAFEX
+                        safient
                       </span>
                     </a>
                   </div>
@@ -122,7 +122,7 @@ export const Nav = () => {
                   <ul class='space-y-4'>
                     <li>
                       <a
-                        href='http://github.com/getsafex'
+                        href='http://github.com/safient'
                         aria-label='Our product'
                         title='Our product'
                         class='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
@@ -132,7 +132,7 @@ export const Nav = () => {
                     </li>
                     <li>
                       <a
-                        href='https://resources.getsafex.co/'
+                        href='https://resources.safient.io/'
                         aria-label='Product pricing'
                         title='Product pricing'
                         class='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-gray-900'
@@ -143,7 +143,7 @@ export const Nav = () => {
 
                     <li>
                       <a
-                        href='https://app.getsafex.co'
+                        href='https://app.safient.io'
                         class='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-600 hover:bg-indigo-600 focus:shadow-outline focus:outline-none'
                         aria-label='Sign up'
                         title='Sign up'

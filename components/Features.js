@@ -26,15 +26,19 @@ export const Feature3 = () => {
                 height='24'
               />
             </svg>
-            <span className='relative'>Why Safex?</span>
+            <span className='relative'>Why Safient?</span>
           </span>{' '}
         </h2>
         <p className='text-base text-gray-700 md:text-lg'>
-          Have you ever wondered how will your pass on your <b>valuable crypto assets </b> to your loved ones
-          in case of an unfortunate event or what happens when you no longer have access to your unsafe secret backup ? 
-          <br/> <br/>
-          Worry no more, Safex will help you securely manage all the critical information that is 
-          needed to access and recover the assets so that your loved ones can inherit them with <b>100 % surety </b> incase of any tragic event.
+          Have you ever wondered how will your pass on your{' '}
+          <b>valuable crypto assets </b> to your loved ones in case of an
+          unfortunate event or what happens when you no longer have access to
+          your unsafe secret backup ?
+          <br /> <br />
+          Worry no more, safient will help you securely manage all the critical
+          information that is needed to access and recover the assets so that
+          your loved ones can inherit them with <b>100 % surety </b> incase of
+          any tragic event.
         </p>
       </div>
       <div className='grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3 lg:px-20 '>
@@ -109,9 +113,9 @@ export const Feature3 = () => {
             Share portfolio
           </h6>
           <p className='text-base text-gray-900'>
-            Safex allows to share portfolio confidentially on need to know basis
-            with the beneficiaries even before the safe is recovered. Get to
-            know more{' '}
+            safient allows to share portfolio confidentially on need to know
+            basis with the beneficiaries even before the safe is recovered. Get
+            to know more{' '}
             <a href='https://portex.xyz' target='_blank'>
               <u>here</u>
             </a>
@@ -132,7 +136,7 @@ export const Feature3 = () => {
           </h6>
           <p className='text-base text-gray-900'>
             Onboarding and using a trustless, decentralized application is
-            always intimidating. Safex makes the user experience easier than
+            always intimidating. safient makes the user experience easier than
             ever with minimal and intuitive interactions.
           </p>
         </div>

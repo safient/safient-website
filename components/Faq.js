@@ -78,9 +78,9 @@ export const Faq = () => {
           </div>
         </div>
         <div class='space-y-4 text-gray-900'>
-          <Item title='Who should use Safex?'>
+          <Item title='Who should use safient?'>
             If you hold valuable crypto assets, but currently do not have a
-            secure backup or inheritance plan, Safex is for you.
+            secure backup or inheritance plan, safient is for you.
           </Item>
           <Item title='Where is the safe information stored?'>
             Encrypted safe information is stored on IPFS decentralized data

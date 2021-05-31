@@ -14,13 +14,13 @@ export const Header = () => {
               <span className=' xl:inline'>Protocol</span>
             </h2>
             <p className='text-base text-gray-700 md:text-lg'>
-              Exchange secrets securely and conveniently that help you
-              recover or inherit crypto assets without exposing it to any
+              Exchange secrets securely and conveniently that help you recover
+              or inherit crypto assets without exposing it to any
               intermediaries.
             </p>
           </div>
           <div className='flex flex-col items-center md:flex-row'>
-            <Link href='https://app.getsafex.co/'>
+            <Link href='https://app.safient.io/'>
               <a
                 target='_next'
                 className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-600 hover:bg-indigo-700 focus:shadow-outline focus:outline-none'
@@ -28,7 +28,7 @@ export const Header = () => {
                 <span className='mr-3'>Try Now</span>
               </a>
             </Link>
-            <Link href='https://resources.getsafex.co'>
+            <Link href='https://resources.getsafient.co'>
               <a
                 target='_next'
                 aria-label=''

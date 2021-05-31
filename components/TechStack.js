@@ -106,7 +106,7 @@ export const TechStack = () => {
             <p className='leading-relaxed mt-6 font-bold border-b pb-5 mb-5 border-gray-200'>
               Ceramic IDX
             </p>
-            <p>Acts as an identity solution for each Safex user.</p>
+            <p>Acts as an identity solution for each safient user.</p>
           </div>
         </a>
         <a
@@ -130,7 +130,7 @@ export const TechStack = () => {
               Magic Link
             </p>
             <p>
-              Allows Safex users to authenticate to the application without a
+              Allows safient users to authenticate to the application without a
               traditional username/ password or without having to install any
               Crypto wallets.
             </p>

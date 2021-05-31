@@ -42,12 +42,16 @@ export const Footer = () => {
               </p>
               <ul className='mt-2 space-y-2'>
                 <li>
-                  <a className='text-gray-400 hover:text-gray-800 cursor-pointer' href="https://docs.getsafex.co" target="_blank">
+                  <a
+                    className='text-gray-400 hover:text-gray-800 cursor-pointer'
+                    href='https://docs.getsafient.co'
+                    target='_blank'
+                  >
                     Documentation
                   </a>
                 </li>
                 <li>
-                  <Link href='https://github.com/getsafex'>
+                  <Link href='https://github.com/getsafient'>
                     <a
                       target='_blank'
                       className='text-gray-400 hover:text-gray-800 cursor-pointer'
@@ -99,7 +103,7 @@ export const Footer = () => {
               </p>
               <ul className='mt-2 space-y-2'>
                 <li>
-                  <Link href='https://twitter.com/getsafex'>
+                  <Link href='https://twitter.com/getsafient'>
                     <a
                       className='text-gray-400 hover:text-gray-800 cursor-pointer'
                       target='_blank'
@@ -119,7 +123,7 @@ export const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='https://blog.consensolabs.com/tag/safex'>
+                  <Link href='https://blog.consensolabs.com/tag/safient'>
                     <a
                       className='text-gray-400 hover:text-gray-800 cursor-pointer'
                       target='_blank'
@@ -156,7 +160,7 @@ export const Footer = () => {
         </div>
         <div className='flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row'>
           <p className='text-sm text-gray-500'>
-            © {new Date().getFullYear()} Safex.
+            © {new Date().getFullYear()} safient.
           </p>
           <div className='flex items-center mt-4 space-x-4 sm:mt-0'>
             <a
