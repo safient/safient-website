@@ -20,9 +20,9 @@ export const Nav = () => {
           </li>
           <li>
             <a
-              href='https://resources.getsafex.co/'
-              aria-label='Product pricing'
-              title='Product pricing'
+              href='https://blog.consensolabs.com/tag/safex'
+              aria-label='Safex blog'
+              title='Safex blog'
               class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
             >
               Blog
@@ -30,9 +30,19 @@ export const Nav = () => {
           </li>
           <li>
             <a
+              href='https://docs.getsafex.co'
+              aria-label='Safex Docs'
+              title='Safex docs'
+              class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
+            >
+              Docs
+            </a>
+          </li>
+          <li>
+            <a
               href='http://github.com/getsafex'
-              aria-label='About us'
-              title='About us'
+              aria-label='Safex GitHub'
+              title='Safex GitHub'
               class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
             >
               Developers

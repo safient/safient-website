@@ -109,7 +109,7 @@ export const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='https://discord.gg/tttGQAwuZx'>
+                  <Link href='https://discord.getsafex.co'>
                     <a
                       className='text-gray-400 hover:text-gray-800 cursor-pointer'
                       target='_blank'
