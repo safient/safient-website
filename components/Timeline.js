@@ -1,5 +1,5 @@
 const Year = ({ year, quater, heading, children }) => (
-  <div className='mb-10 border-t border-b divide-y bg-gray-50'>
+  <div className='mb-10  border-b divide-y bg-gray-50'>
     <div className='grid py-8 sm:grid-cols-4'>
       <div className='mb-4 ml-32 sm:mb-0'>
         <div className='space-y-1 text-xs font-semibold tracking-wide uppercase'>
@@ -107,7 +107,11 @@ export const TimeLine = () => {
         </ul>
       </Year>
 
-      <Year heading='Safient design and prototype ✨' year='2021' quater='APRIL'>
+      <Year
+        heading='Safient design and prototype ✨'
+        year='2021'
+        quater='APRIL'
+      >
         <p>
           Taking all the feedbacks from our hackathon project, we started to
           design and prototype the solution for Safient. We planned all the
@@ -124,10 +128,10 @@ export const TimeLine = () => {
           <li> - Inheritance claims using Kleros </li>
           <li> - Identity management for users </li>
         </ul>
-          <p className='font-medium text-gray-900 dark:text-gray-100 text-2xl mb-3 mt-8'>
-            Beta release for the community 🚀
-          </p>
-          Features include:
+        <p className='font-medium text-gray-900 dark:text-gray-100 text-2xl mb-3 mt-8'>
+          Beta release for the community 🚀
+        </p>
+        Features include:
         <ul>
           <li> - Well tested and audited contracts for inheritance claims</li>
           <li>

@@ -11,7 +11,7 @@ class MyDocument extends Document {
       <Html lang='en'>
         <Head>
           <link rel=' icon' href='/favicon.ico' />
-          <title>Safient</title>
+
           <meta name='robots' content='follow, index' />
           <meta
             content='Secure crypto secret exchange and inheritance protocol'
