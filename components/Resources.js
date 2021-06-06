@@ -42,7 +42,7 @@ export const DevResources = () => {
               safient maintains resources to help developers integrate their
               applications to seamlessly connect with safes tools and libraries.
             </p>
-            <a href='https://resources.getsafient.co' target='_blank'>
+            <a href='https://docs.safient.io' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900'>
                 safient development documentation
               </p>
@@ -60,7 +60,7 @@ export const DevResources = () => {
               Individuals can use our community version to create a safe and
               inheritance plan right away.
             </p>
-            <a href='https://app.getsafient.co' target='_blank'>
+            <a href='https://app.safient.io' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900 '>
                 Checkout the community version
               </p>
@@ -78,7 +78,7 @@ export const DevResources = () => {
               We are working on our enterprise version to integrate with the
               existing crypto exchanges and custodial wallet services.
             </p>
-            <a href='mailto:hello@getsafient.co' target='_blank'>
+            <a href='mailto:hello@safient.io' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900'>
                 Contact us for the business version
               </p>
