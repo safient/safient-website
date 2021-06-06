@@ -10,7 +10,7 @@ const Year = ({ year, quater, heading, children }) => (
           >
             {year}
           </a>
-          <h4 className='text-indigo-600 text-lg'>{quater}</h4>
+          <h4 className='text-gray-600 text-lg'>{quater}</h4>
         </div>
       </div>
       <div className='sm:col-span-3 lg:col-span-2 text-gray-700'>
@@ -65,7 +65,7 @@ export const TimeLine = () => {
         </h2>
       </div>
 
-      <Year heading='safient concept ideation 💡' year='2020' quater='Q4'>
+      <Year heading='Safient concept ideation 💡' year='2020' quater='Q4'>
         <ul>
           <li className='text-gray-700'>
             {' '}
@@ -80,7 +80,7 @@ export const TimeLine = () => {
       </Year>
 
       <Year
-        heading='Genesis of a sister product of safient at ETHDenver 🚀'
+        heading='Genesis of a sister product of Safient at ETHDenver 🚀'
         year='2021'
         quater='FEB'
       >
@@ -108,34 +108,30 @@ export const TimeLine = () => {
       </Year>
 
       <Year
-        heading='safient design and prototype ✨'
+        heading='Safient design and prototype ✨'
         year='2021'
         quater='APRIL'
       >
         <p>
           Taking all the feedbacks from our hackathon project, we started to
-          design and prototype the solution for safient. We planned all the
+          design and prototype the solution for Safient. We planned all the
           features, integrations and layed our architecture for our initial
           implementation.
         </p>
       </Year>
 
-      <Year heading='Closed beta release' year='2021' quater='Q2'>
+      <Year heading='Closed beta release 🧪' year='2021' quater='Q2'>
         Closed beta release for the community. Features include:
         <ul>
           <li className='mt-3'> - Secret sharing mechanism using guardians </li>
+          <li> - Filecoin integration for durable safes </li>
           <li> - Inheritance claims using Kleros </li>
           <li> - Identity management for users </li>
         </ul>
-        <a
-          href='/'
-          aria-label='Article'
-          className='inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-700'
-        >
-          <p className='font-medium text-gray-900 dark:text-gray-100 text-2xl mb-3 mt-8'>
-            Beta release for the community. Features include:
-          </p>
-        </a>
+        <p className='font-medium text-gray-900 dark:text-gray-100 text-2xl mb-3 mt-8'>
+          Beta release for the community 🚀
+        </p>
+        Features include:
         <ul>
           <li> - Well tested and audited contracts for inheritance claims</li>
           <li>
