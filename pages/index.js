@@ -10,6 +10,7 @@ import { Cta } from '@components/Cta';
 import { Faq } from '@components/Faq';
 import { Footer } from '@components/Footer';
 import { Blog } from '@components/Blog';
+import Compare from '@components/Compare';
 
 function IndexPage() {
   return (
@@ -22,6 +23,7 @@ function IndexPage() {
       <TechStack />
       <DevResources />
       <TimeLine />
+      <Compare />
       {/* <Blog /> */}
       <Cta />
       <Faq />
