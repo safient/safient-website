@@ -9,12 +9,7 @@ function Compare() {
             <h1 className='xl:text-4xl text-3xl text-center text-gray-800 mb-4 font-extrabold'>
               Solution Comparison
             </h1>
-            <p className='text-xl text-center text-gray-600 font-normal'>
-              {/* Focus on your business goals and we take care of the rest. From
-              ready-made components to perfect templates to highly customizable
-              design. All you need to do is choose your plan according to your
-              next project. */}
-            </p>
+            <p className='text-xl text-center text-gray-600 font-normal'></p>
           </div>
           <div className='w-11/12 mx-auto'>
             <div className='shadow'>
