@@ -2,7 +2,7 @@ import React from 'react';
 
 function Compare() {
   return (
-    <div className='pt-16'>
+    <div className='pt-16  overflow-x-auto'>
       <div className='w-full bg-white py-12'>
         <div className='container mx-auto'>
           <div className='w-4/5 mx-auto mb-12'>
@@ -24,12 +24,12 @@ function Compare() {
                       </td>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-center text-xs sm:text-sm text-gray-800 break-words'>
                         <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>
-                          Decentralized Control?
+                          Decentralized Control ?
                         </p>
                       </td>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-center text-xs sm:text-sm text-gray-800 break-words'>
                         <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>
-                          Multiple Auth Options?
+                          Multiple Auth Options ?
                         </p>
                       </td>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-center text-xs sm:text-sm text-gray-800 break-words'>
@@ -49,7 +49,7 @@ function Compare() {
                       </td>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-center text-xs sm:text-sm text-gray-800 break-words'>
                         <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>
-                          Works for generic Data?
+                          Works for generic Data ?
                         </p>
                       </td>
                     </tr>
@@ -398,7 +398,7 @@ function Compare() {
 
                     <tr>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-xs sm:text-sm text-gray-800 break-words'>
-                        Competing solutions (Vault12, Inheriti)
+                        Competing Solutions
                       </td>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-center text-xs sm:text-sm text-gray-800'>
                         <span class='inline-block  rounded px-4 py-2 text-sm font-semibold text-gray-700 mr-2 mb-2'>
@@ -443,13 +443,13 @@ function Compare() {
                             className='h-6 w-6'
                             fill='none'
                             viewBox='0 0 24 24'
-                            stroke='green'
+                            stroke='#EF4444'
                           >
                             <path
                               strokeLinecap='round'
                               strokeLinejoin='round'
                               strokeWidth={2}
-                              d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+                              d='M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z'
                             />
                           </svg>
                         </span>
