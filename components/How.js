@@ -32,7 +32,7 @@ export const Step = () => {
           it Works?
         </h2>
         <p className='text-base text-gray-900 font-semibold md:text-lg'>
-          safient follws three simple steps to claim or inherit the crypto
+          Safient follws three simple steps to claim or inherit the crypto
           assets.
         </p>
       </div>

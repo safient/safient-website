@@ -80,7 +80,7 @@ export const TechStack = () => {
               Textile ThreadDB
             </p>
             <p>
-              Helps to store all the public information on a decentralized
+              Helps to store all the public information on a p2p
               database.
             </p>
           </div>
@@ -106,7 +106,7 @@ export const TechStack = () => {
             <p className='leading-relaxed mt-6 font-bold border-b pb-5 mb-5 border-gray-200'>
               Ceramic IDX
             </p>
-            <p>Acts as an identity solution for each safient user.</p>
+            <p>Acts as an identity solution for each Safient user.</p>
           </div>
         </a>
         <a
@@ -130,7 +130,7 @@ export const TechStack = () => {
               Magic Link
             </p>
             <p>
-              Allows safient users to authenticate to the application without a
+              Allows Safient users to authenticate to the application without a
               traditional username/ password or without having to install any
               Crypto wallets.
             </p>

@@ -30,12 +30,12 @@ export const Feature3 = () => {
           </span>{' '}
         </h2>
         <p className='text-base text-gray-700 md:text-lg'>
-          Have you ever wondered how will your pass on your{' '}
+          Have you ever wondered how will you pass on your{' '}
           <b>valuable crypto assets </b> to your loved ones in case of an
-          unfortunate event or what happens when you no longer have access to
+          unfortunate event, or what happens when you no longer have access to
           your unsafe secret backup ?
           <br /> <br />
-          Worry no more, safient will help you securely manage all the critical
+          Worry no more, Safient will help you securely manage all the critical
           information that is needed to access and recover the assets so that
           your loved ones can inherit them with <b>100 % surety </b> incase of
           any tragic event.
@@ -47,10 +47,10 @@ export const Feature3 = () => {
             <img src='/FeaturesIcons/encrypted.svg' alt='' srcset='' />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
-            Secure safes
+            Secure Safes
           </h6>
           <p className='text-base text-gray-900'>
-            Backup your secrets on our trustless safes that can be only
+            Backup your secrets on our Safient safe that can only be
             recovered by you at any time.
           </p>
         </div>
@@ -59,7 +59,7 @@ export const Feature3 = () => {
             <img src='/FeaturesIcons/api.svg' alt='' srcset='' />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
-            Convenient inheritance
+            Convenient Inheritance
           </h6>
           <p className='text-base text-gray-900'>
             Ensure that your safes are inherited by beneficiaries only incase of
@@ -71,10 +71,10 @@ export const Feature3 = () => {
             <img src='/FeaturesIcons/confidential.svg' alt='' srcset='' />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
-            Trustless recovery protocol
+            Trustless Recovery Protocol
           </h6>
           <p className='text-base text-gray-900'>
-            The safes are protected and governed by completely decentralized
+            The safes are protected and governed by trustless
             guardians and arbitrators (Using Kleros) to ensure the highest
             degree of resilience.
           </p>
@@ -89,7 +89,7 @@ export const Feature3 = () => {
             />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
-            Dispute resolution
+            Dispute Resolution
           </h6>
           <p className='text-base text-gray-900'>
             Dipute resolution platform quickly resolves all the claims for
@@ -110,10 +110,10 @@ export const Feature3 = () => {
             />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
-            Share portfolio
+            Share Portfolio
           </h6>
           <p className='text-base text-gray-900'>
-            safient allows to share portfolio confidentially on need to know
+            Safient allows to share portfolio confidentially on need to know
             basis with the beneficiaries even before the safe is recovered. Get
             to know more{' '}
             <a href='https://portex.xyz' target='_blank'>
@@ -132,11 +132,11 @@ export const Feature3 = () => {
             />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
-            Decentralization - simplified
+            Decentralization - Simplified
           </h6>
           <p className='text-base text-gray-900'>
             Onboarding and using a trustless, decentralized application is
-            always intimidating. safient makes the user experience easier than
+            always intimidating. Safient makes the user experience easier than
             ever with minimal and intuitive interactions.
           </p>
         </div>

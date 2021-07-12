@@ -44,7 +44,7 @@ export const Footer = () => {
                 <li>
                   <a
                     className='text-gray-400 hover:text-gray-800 cursor-pointer'
-                    href='https://docs.safient.co'
+                    href='https://docs.safient.io'
                     target='_blank'
                   >
                     Documentation
@@ -67,16 +67,6 @@ export const Footer = () => {
                 Contact Us
               </p>
               <ul className='mt-2 space-y-2'>
-                <li>
-                  <Link href='https://angel.co/company/consensolabs/jobs'>
-                    <a
-                      className='text-gray-400 hover:text-gray-800 cursor-pointer'
-                      target='_blank'
-                    >
-                      Career
-                    </a>
-                  </Link>
-                </li>
                 <li>
                   <Link href='https://www.consensolabs.com/contact'>
                     <a className='text-gray-400 hover:text-gray-800 cursor-pointer'>
@@ -123,7 +113,7 @@ export const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='https://blog.consensolabs.com/tag/safient'>
+                  <Link href='https://blog.safient.io'>
                     <a
                       className='text-gray-400 hover:text-gray-800 cursor-pointer'
                       target='_blank'
@@ -160,7 +150,7 @@ export const Footer = () => {
         </div>
         <div className='flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row'>
           <p className='text-sm text-gray-500'>
-            © {new Date().getFullYear()} safient.
+            © {new Date().getFullYear()} Safient.
           </p>
           <div className='flex items-center mt-4 space-x-4 sm:mt-0'>
             <a
