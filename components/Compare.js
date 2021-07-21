@@ -3,12 +3,10 @@ import React from 'react';
 function Compare() {
   return (
     <div className='pt-16  overflow-x-auto'>
-      <div className='w-full bg-white py-12'>
+      <div className='w-full bg-white py-12 px-20'>
         <div className='container mx-auto'>
           <div className='w-4/5 mx-auto mb-12'>
-            <h1 className='xl:text-4xl text-3xl text-center text-gray-800 mb-4 font-extrabold'>
-              Solution Comparison
-            </h1>
+            <h1 className='xl:text-4xl text-3xl text-center text-gray-800 mb-4 font-extrabold'>Solution Comparison</h1>
             <p className='text-xl text-center text-gray-600 font-normal'></p>
           </div>
           <div className='w-11/12 mx-auto'>
@@ -18,19 +16,13 @@ function Compare() {
                   <tbody>
                     <tr>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-xs sm:text-sm text-gray-800 break-words'>
-                        <p className='pl-4 pt-3 pb-3 font-bold text-base text-gray-600'>
-                          Solutions
-                        </p>
+                        <p className='pl-4 pt-3 pb-3 font-bold text-base text-gray-600'>Solutions</p>
                       </td>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-center text-xs sm:text-sm text-gray-800 break-words'>
-                        <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>
-                          Decentralized Control ?
-                        </p>
+                        <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>Decentralized Control ?</p>
                       </td>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-center text-xs sm:text-sm text-gray-800 break-words'>
-                        <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>
-                          Multiple Auth Options ?
-                        </p>
+                        <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>Multiple Auth Options ?</p>
                       </td>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-center text-xs sm:text-sm text-gray-800 break-words'>
                         <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>
@@ -38,19 +30,13 @@ function Compare() {
                         </p>
                       </td>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-center text-xs sm:text-sm text-gray-800 break-words'>
-                        <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>
-                          Inheritance
-                        </p>
+                        <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>Inheritance</p>
                       </td>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-center text-xs sm:text-sm text-gray-800 break-words'>
-                        <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>
-                          Zero Onboarding Cost
-                        </p>
+                        <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>Zero Onboarding Cost</p>
                       </td>
                       <td className='w-3/12 border border-gray-200 p-2 sm:p-4 text-center text-xs sm:text-sm text-gray-800 break-words'>
-                        <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>
-                          Works for generic Data ?
-                        </p>
+                        <p className='pl-4 pt-3 pb-3 font-bold  text-base text-gray-600'>Works for generic Data ?</p>
                       </td>
                     </tr>
 
