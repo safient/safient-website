@@ -4,7 +4,7 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className='x-4 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-5   bg-indigo-600 sticky top-0 z-50 text-white '>
+    <div className='px-4  py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-5   bg-indigo-600 sticky top-0 z-50 text-white '>
       <div className='relative flex items-center justify-between  mx-auto lg:mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl  lg:px-8  bg-indigo-600 sticky  '>
         <img src='/logo.svg' alt='logo' width='110px' />
         <ul className='flex items-center hidden space-x-8 lg:flex'>

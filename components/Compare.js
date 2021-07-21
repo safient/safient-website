@@ -2,7 +2,7 @@ import React from 'react';
 
 function Compare() {
   return (
-    <div className='pt-16  overflow-x-auto'>
+    <div className='pt-0  overflow-x-auto'>
       <div className='w-full bg-white py-12 px-20'>
         <div className='container mx-auto'>
           <div className='w-4/5 mx-auto mb-12'>
