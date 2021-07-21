@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 export const Header = () => {
   return (
-    <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-white'>
+    <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
       <div className='flex flex-col items-center justify-between lg:flex-row bg-white'>
         <div className='mb-10 lg:max-w-lg lg:pr-5 lg:mb-0'>
           <div className='max-w-xl mb-6'>
@@ -14,9 +14,8 @@ export const Header = () => {
               <span className=' xl:inline'>Protocol</span>
             </h2>
             <p className='text-base text-gray-700 md:text-lg'>
-              Exchange secrets securely and conveniently that help you recover
-              or inherit crypto assets without exposing it to any
-              intermediaries.
+              Exchange secrets securely and conveniently that help you recover or inherit crypto assets without exposing
+              it to any intermediaries.
             </p>
           </div>
           <div className='flex flex-col items-center md:flex-row'>
@@ -40,11 +39,7 @@ export const Header = () => {
           </div>
         </div>
         <div className='relative lg:w-1/2'>
-          <img
-            className=' w-full h-56 rounded  sm:h-96'
-            src='/images/hero.svg'
-            alt='crypto'
-          />
+          <img className=' w-full h-56 rounded  sm:h-96' src='/images/hero.svg' alt='crypto' />
         </div>
       </div>
     </div>

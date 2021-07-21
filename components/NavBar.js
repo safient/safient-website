@@ -4,7 +4,7 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div class='px-4 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-30 bg-indigo-600 sticky top-0 z-50 text-white'>
+    <div class='px-1 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-30 bg-indigo-600 sticky top-0 z-50 text-white'>
       <div class='relative flex items-center justify-between'>
         <img src='/logo.svg' alt='logo' width='110px' />
         <ul class='flex items-center hidden space-x-8 lg:flex'>
@@ -67,18 +67,9 @@ export const Nav = () => {
             onClick={() => setIsMenuOpen(true)}
           >
             <svg class='w-5 text-gray-600' viewBox='0 0 24 24'>
-              <path
-                fill='#fff'
-                d='M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z'
-              />
-              <path
-                fill='#fff'
-                d='M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z'
-              />
-              <path
-                fill='#fff'
-                d='M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z'
-              />
+              <path fill='#fff' d='M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z' />
+              <path fill='#fff' d='M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z' />
+              <path fill='#fff' d='M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z' />
             </svg>
           </button>
           {isMenuOpen && (
@@ -86,12 +77,7 @@ export const Nav = () => {
               <div class='p-5 bg-white border rounded shadow-sm'>
                 <div class='flex items-center justify-between mb-4'>
                   <div>
-                    <a
-                      href='/'
-                      aria-label='Company'
-                      title='Company'
-                      class='inline-flex items-center'
-                    >
+                    <a href='/' aria-label='Company' title='Company' class='inline-flex items-center'>
                       <svg
                         class='w-8 text-deep-purple-accent-400'
                         viewBox='0 0 24 24'
@@ -107,9 +93,7 @@ export const Nav = () => {
                         <rect x='14' y='1' width='7' height='6' />
                         <rect x='14' y='11' width='7' height='12' />
                       </svg>
-                      <span class='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-                        safient
-                      </span>
+                      <span class='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>safient</span>
                     </a>
                   </div>
                   <div>
