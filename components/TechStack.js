@@ -58,8 +58,13 @@ export const TechStack = () => {
           >
             <img src='/images/threddb.svg' width='70px' alt='' srcset='' />
 
-            <p className='leading-relaxed mt-6 font-bold border-b pb-5 mb-5 border-gray-200'>Textile ThreadDB</p>
-            <p>Helps to store all the public information on a decentralized database.</p>
+            <p className='leading-relaxed mt-6 font-bold border-b pb-5 mb-5 border-gray-200'>
+              Textile ThreadDB
+            </p>
+            <p>
+              Helps to store all the public information on a p2p
+              database.
+            </p>
           </div>
         </a>
 
@@ -76,8 +81,10 @@ export const TechStack = () => {
             }}
           >
             <img src='/images/idx.svg' width='140px' alt='' srcset='' />
-            <p className='leading-relaxed mt-6 font-bold border-b pb-5 mb-5 border-gray-200'>Ceramic IDX</p>
-            <p>Acts as an identity solution for each safient user.</p>
+            <p className='leading-relaxed mt-6 font-bold border-b pb-5 mb-5 border-gray-200'>
+              Ceramic IDX
+            </p>
+            <p>Acts as an identity solution for each Safient user.</p>
           </div>
         </a>
         <a className='p-4 md:w-1/2 sm:w-1/2 w-full' href='https://magic.link/' target='_blank'>
@@ -95,8 +102,9 @@ export const TechStack = () => {
 
             <p className='leading-relaxed mt-6 font-bold border-b pb-5 mb-5 border-gray-200'>Magic Link</p>
             <p>
-              Allows safient users to authenticate to the application without a traditional username/ password or
-              without having to install any Crypto wallets.
+              Allows Safient users to authenticate to the application without a
+              traditional username/ password or without having to install any
+              Crypto wallets.
             </p>
           </div>
         </a>

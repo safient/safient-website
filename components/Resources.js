@@ -39,12 +39,12 @@ export const DevResources = () => {
             </div>
             <h6 className='mb-2 font-semibold leading-10'>Developers</h6>
             <p className='text-sm font-medium text-gray-800'>
-              safient maintains resources to help developers integrate their
-              applications to seamlessly connect with safes tools and libraries.
+              Safient maintains resources to help developers integrate their
+              applications to seamlessly interact with safes using our SDKs.
             </p>
             <a href='https://docs.safient.io' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900'>
-                safient development documentation
+                Safient development documentation
               </p>
             </a>
           </div>
@@ -57,12 +57,12 @@ export const DevResources = () => {
             </div>
             <h6 className='mb-2 font-semibold leading-10'>Individuals</h6>
             <p className='text-sm text-gray-800 font-semibold'>
-              Individuals can use our community version to create a safe and
-              inheritance plan right away.
+              Individuals can use our community edition to create safes and
+              inheritance plans right away.
             </p>
             <a href='https://app.safient.io' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900 '>
-                Checkout the community version
+                Checkout the community edition
               </p>
             </a>
           </div>
@@ -75,12 +75,12 @@ export const DevResources = () => {
             </div>
             <h6 className='mb-2 font-semibold leading-10'>Enterprises</h6>
             <p className='text-sm text-gray-800 font-semibold'>
-              We are working on our enterprise version to integrate with the
+              We are working on our enterprise edition to integrate with the
               existing crypto exchanges and custodial wallet services.
             </p>
             <a href='mailto:hello@safient.io' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900'>
-                Contact us for the business version
+                Contact us for the enterprise edition
               </p>
             </a>
           </div>

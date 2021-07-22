@@ -116,7 +116,7 @@ export const TimeLine = () => {
         </p>
       </Year>
 
-      <Year heading='Closed beta release 🧪' year='2021' quater='Q2'>
+      <Year heading='Private beta release 🧪' year='2021' quater='Q3'>
         Closed beta release for the community. Features include:
         <ul>
           <li className='mt-3'> - Secret sharing mechanism using guardians </li>
@@ -135,6 +135,12 @@ export const TimeLine = () => {
             - Well tested secret sharing with optimised incentivization
             mechanism
           </li>
+        </ul>
+      </Year>
+      <Year heading='Audit and mainnet release 🚀' year='2022' quater='Q1'>
+        Main net release for the community. Features include:
+        <ul>
+          <li className='mt-3'> - Safient will undergo bug bounty program and security audit before the mainnet release </li>
         </ul>
       </Year>
     </div>

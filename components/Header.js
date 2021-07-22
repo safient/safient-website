@@ -7,15 +7,16 @@ export const Header = () => {
         <div className='mb-10 lg:max-w-lg lg:pr-5 lg:mb-0'>
           <div className='max-w-xl mb-6'>
             <h2 className='max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
-              <span className='   xl:inline'>Secure crypto secret</span>
-              <span className=' text-indigo-600 xl:inline'> Exchange </span>
+              <span className='   xl:inline'>Trustless crypto asset</span>
+              <span className=' text-indigo-600 xl:inline'> Safe </span>
               <span className=' xl:inline'>and</span>
               <span className='text-indigo-600 xl:inline'> Inheritance </span>
               <span className=' xl:inline'>Protocol</span>
             </h2>
             <p className='text-base text-gray-700 md:text-lg'>
-              Exchange secrets securely and conveniently that help you recover or inherit crypto assets without exposing
-              it to any intermediaries.
+
+            Manage your crypto secrets securely and conveniently that help you or your
+            beneficiaries to claim crypto assets without intermediaries.
             </p>
           </div>
           <div className='flex flex-col items-center md:flex-row'>

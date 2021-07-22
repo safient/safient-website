@@ -20,8 +20,8 @@ export const Nav = () => {
           </li>
           <li>
             <a
-              href='https://blog.consensolabs.com/tag/safex'
-              aria-label='Safex blog'
+              href='https://blog.safient.io'
+              aria-label='Safient blog'
               title='Safex blog'
               className='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
             >
@@ -32,18 +32,18 @@ export const Nav = () => {
             <a
               href='https://docs.safient.io'
               aria-label='Safex Docs'
-              title='Safex docs'
-              className='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
+              title='Safient docs'
+              class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
             >
               Docs
             </a>
           </li>
           <li>
             <a
-              href='http://github.com/safient'
-              aria-label='Safex GitHub'
-              title='Safex GitHub'
-              className='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
+              href='https://docs.safient.io/safient-developers/getting-started'
+              aria-label='Safient GitHub'
+              title='Safient GitHub'
+              class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
             >
               Developers
             </a>
@@ -116,7 +116,7 @@ export const Nav = () => {
                   <ul className='space-y-4'>
                     <li>
                       <a
-                        href='http://github.com/safient'
+                        href='https://docs.safient.io/safient-developers/getting-started'
                         aria-label='Our product'
                         title='Our product'
                         className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
@@ -124,9 +124,19 @@ export const Nav = () => {
                         Developers
                       </a>
                     </li>
+                  <li>
+                      <a
+                        href='https://docs.safient.io/'
+                        aria-label='Safient Docs'
+                        title='Safient Docs'
+                        class='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-gray-900'
+                      >
+                        Docs
+                      </a>
+                    </li>
                     <li>
                       <a
-                        href='https://resources.safient.io/'
+                        href='https://blog.safient.io/'
                         aria-label='Product pricing'
                         title='Product pricing'
                         className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-gray-900'
