@@ -1,7 +1,7 @@
 export const TechStack = () => {
   return (
-    <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full max-w-screen-xl md:px-24 lg:px-32 lg:py-20 bg-gray-50 '>
-      <div className='max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 '>
+    <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 '>
+    <div className='max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12'>
         <h2 className='max-w-lg mb-6 font-sans text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-3xl md:mx-auto'>
           <span className='relative inline-block'>
             <svg
@@ -21,7 +21,7 @@ export const TechStack = () => {
           Stacks that make this happen
         </h2>
       </div>
-
+    
       <div className='flex flex-wrap  px-2 text-center '>
         <a className='p-4 md:w-1/2 sm:w-1/2 w-full' href='https://filecoin.io/' target='_blank'>
           <div
