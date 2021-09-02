@@ -1,4 +1,53 @@
-export const Step = () => {
+import { useState } from 'react';
+
+const StepFlow = ({ step = 1}) => {
+
+  const stepsData = [{ 
+    title: "Creating a safe",
+    img: "/images/how1.gif"
+  },
+  { 
+    title: "Claiming the safe",
+    img: "/images/how2.gif"
+
+  },
+  { 
+    title: "Recovering the safe",
+    img: "/images/how3.gif"
+
+  }]
+
+  return (
+    <div className='relative p-5 duration-300 transform bg-white border-2 rounded shadow-sm  hover:-translate-y-2'>
+          <div className='flex items-center mb-2'>
+            <p className='flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-indigo-600'>
+              {step}
+            </p>
+            <p className='text-lg font-bold leading-5 text-gray-900'>{stepsData[step-1].title}</p>
+          </div>
+
+          <img src={stepsData[step-1].img}/>
+    
+          <p className='absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-indigo-600 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10'>
+            <svg className='text-white w-7' stroke='currentColor' viewBox='0 0 24 24'>
+              <polyline
+                fill='none'
+                strokeWidth='2'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeMiterlimit='10'
+                points='6,12 10,16 18,8'
+              />
+            </svg>
+          </p>
+        </div>
+  );
+};
+
+ export const Step = () => {
+
+  const [step, setStep] = useState(1);
+  
   return (
     <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 '>
       <div className='max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12'>
@@ -26,54 +75,43 @@ export const Step = () => {
           assets.
         </p>
       </div>
-      <div className='grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3'>
-        <div className='p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-indigo-600 hover:-translate-y-2'>
+      
+      <div className='grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-2'>
+        <div className='grid gap-5'>
+        <div className={"p-5 duration-300 transform bg-white shadow-md rounded-xl  border-opacity-30 border-indigo-600 hover:-translate-y-2 cursor-pointer " + (step == 1 ? 'border-2' : 'border-0 ')} onClick={() => setStep(1)}>
           <div className='flex items-center mb-2'>
-            <p className='flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-indigo-600'>
-              1
-            </p>
-            <p className='text-lg font-bold leading-10 text-gray-900'> Create a safe </p>
+      
+            <p className='uppercase text-sm font-semibold leading-10 text-indigo-500'> Create a safe </p>
           </div>
           <p className='text-base mt-4  text-gray-800 '>
-            The user creates a safe for secret credentials or secret notes. Beneficiaries for the safe can be added at
+            The user creates a safe for wallet seed phrases or secret notes. Beneficiaries for the safe can be added at
             any time.
           </p>
         </div>
-        <div className='p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-indigo-600 hover:-translate-y-2'>
+
+        <div className={"p-5 duration-300 transform bg-white shadow-md rounded-xl  border-opacity-30 border-indigo-600 hover:-translate-y-2 cursor-pointer " + (step == 2 ? 'border-2' : 'border-0 ')} onClick={() => setStep(2)}>
           <div className='flex items-center mb-2'>
-            <p className='flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-indigo-600'>
-              2
-            </p>
-            <p className='text-lg font-bold leading-5 text-gray-900'> Request to claim/ inherit the safe</p>
+            <p className='uppercase text-sm font-semibold leading-10 text-indigo-500'> Request to claim/ inherit the safe </p>
           </div>
-          <p className='text-sm text-gray-900 text-base mt-4'>
-            The safe owner or beneficiaries can request to claim or inherit the safe at anytime.
+          <p className='text-base mt-4  text-gray-800 '>
+          The safe owner or beneficiaries can request to claim or inherit the safe at anytime.
           </p>
         </div>
-        <div className='relative p-5 duration-300 transform bg-white border-2 rounded shadow-sm border-indigo-600 hover:-translate-y-2'>
+
+        <div className={"p-5 duration-300 transform bg-white shadow-md rounded-xl  border-opacity-30 border-indigo-600 hover:-translate-y-2 cursor-pointer " + (step == 3 ? 'border-2' : 'border-0 ')} onClick={() => setStep(3)}>
           <div className='flex items-center mb-2'>
-            <p className='flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-indigo-600'>
-              3
-            </p>
-            <p className='text-lg font-bold leading-5 text-gray-900'>Recover safe:</p>
+            <p className='uppercase text-sm font-semibold leading-10 text-indigo-500'> Recover the safe </p>
           </div>
-          <p className='text-base text-gray-900  mt-4'>
-            The <b>trustless safe guardians</b> will help recover the safes, quickly and safely after verifying the
+          <p className='text-base mt-4  text-gray-800 '>
+          The <b>trustless safe guardians</b> will help recover the safes, quickly and safely after verifying the
             recovery claim.
           </p>
-          <p className='absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-indigo-600 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10'>
-            <svg className='text-white w-7' stroke='currentColor' viewBox='0 0 24 24'>
-              <polyline
-                fill='none'
-                strokeWidth='2'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                strokeMiterlimit='10'
-                points='6,12 10,16 18,8'
-              />
-            </svg>
-          </p>
         </div>
+
+        </div>
+
+        <StepFlow step={step}/>
+        
       </div>
     </div>
   );
