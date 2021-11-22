@@ -74,7 +74,7 @@ export const TimeLine = () => {
           </li>
           <li>
             {' '}
-            - Evaluated the technical and economical feasibility of the solution{' '}
+            - Evaluated the technical and economical feasibility of the solution by integrating solutions such as Ceramic network, Textile ThreadDB, Kleros,  IPFS/ Filecoin.{' '}
           </li>
         </ul>
       </Year>
@@ -109,35 +109,36 @@ export const TimeLine = () => {
 
       <Year heading='Safient design and prototype ✨' year='2021' quater='APRIL'>
         <p>
-          Taking all the feedbacks from our hackathon project, we started to
-          design and prototype the solution for Safient. We planned all the
-          features, integrations and layed our architecture for our initial
-          implementation.
+        Taking all the feedback from our hackathon project, we started to design and prototype the solution for Safient. We planned all the features, integrations and laid out our architecture for the initial implementation, and conducted a detailed user research survey to verify our solution approach.
         </p>
+        <br/>
+        <b>
+        Safient was one of the top 3 projects in the <a
+            href='https://filecoin.io/blog/posts/249k-for-17-projects-from-dorahacks-filecoin-grant-hackathon/'
+            target='_blank'
+            style={{ textDecoration: 'underline' }}
+          >
+            DoraHack's Filecoin Grant
+          </a> {' '} program.
+        </b>
       </Year>
 
-      <Year heading='Private beta release 🧪' year='2021' quater='Q3'>
-        Closed beta release for the community. Features include:
+      <Year heading='Demo and Private beta release 🧪' year='2021' quater='Q4'>
+        Private beta demo to the community. Features include:
         <ul>
-          <li className='mt-3'> - Secret sharing mechanism using guardians </li>
-          <li> - Filecoin integration for durable safes </li>
-          <li> - Inheritance claims using Kleros </li>
-          <li> - Identity management for users </li>
-        </ul>
-          <p className='font-medium text-gray-900 dark:text-gray-100 text-2xl mb-3 mt-8'>
-            Beta release for the community 🚀
-          </p>
-          Features include:
-        <ul>
-          <li> - Well tested and audited contracts for inheritance claims</li>
-          <li>
-            {' '}
-            - Well tested secret sharing with optimised incentivization
-            mechanism
-          </li>
+          <li className='mt-3'> - Initial community edition application for safekeeping and inheritance with a few safe claim approach.</li>
+          <li> - SDKs to communicate with our alpha version of Safient protocol.  </li>
         </ul>
       </Year>
-      <Year heading='Audit and mainnet release 🚀' year='2022' quater='Q1'>
+      <Year heading='Beta release to the community 🚀' year='2022' quater='Q1'>
+        Features include:
+        <ul>
+          <li className='mt-3'> - Well tested and audited contracts for inheritance claims </li>
+          <li> - Well tested Safient protocol to create, access, claim safes </li>
+          <li> - Planned economics to generate the right traction (value) for the users and incentivized actors </li>
+        </ul>
+      </Year>
+      <Year heading='Audit and mainnet release 🚀' year='2022' quater='Q2'>
         Main net release for the community. Features include:
         <ul>
           <li className='mt-3'> - Safient will undergo bug bounty program and security audit before the mainnet release </li>

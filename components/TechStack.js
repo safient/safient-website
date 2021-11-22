@@ -40,7 +40,7 @@ export const TechStack = () => {
             <p className='leading-relaxed mt-6 font-bold border-b pb-5 mb-5 border-gray-200'>
               Filecoin + Textile Buckets
             </p>
-            <p>Ensures that the safes available at all the time</p>
+            <p>Ensures that the safes are available all the time</p>
           </div>
         </a>
 
@@ -62,7 +62,7 @@ export const TechStack = () => {
               Textile ThreadDB
             </p>
             <p>
-              Helps to store all the public information on a p2p
+              Helps to store all the public metadata on a p2p
               database.
             </p>
           </div>

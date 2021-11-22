@@ -80,13 +80,13 @@ export const Faq = () => {
         <div class='space-y-4 text-gray-900'>
           <Item title='Who should use safient?'>
             If you hold valuable crypto assets, but currently do not have a
-            secure backup or inheritance plan, safient is for you.
+            secure backup or inheritance plan, Safient is for you.
           </Item>
           <Item title='Where is the safe information stored?'>
-            Encrypted safe information is stored on IPFS decentralized data
-            storage using Ceramic Network and Textile Buckets. Even though the
+            Encrypted safe information is stored on IPFS decentralized
+            storage network using Ceramic Network and Textile Buckets. Even though the
             safe is stored on decentralized storage, it cannot be recovered
-            without guardians collectively do so.
+            without the guardians collectively reconstructing it.
           </Item>
           <Item title='Can the beneficiary access the safe information?'>
             The safe content cannot be accessed by the beneficiary unless the
@@ -101,7 +101,7 @@ export const Faq = () => {
             Yes, the safe can be updated any number of times.
           </Item>
           <Item title='Can I delete the safe?'>
-            Yes, the safe can be destroyed.
+            Yes, the safe can be destroyed by making it unrecoverable.
           </Item>
         </div>
       </div>

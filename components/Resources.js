@@ -76,7 +76,7 @@ export const DevResources = () => {
             <h6 className='mb-2 font-semibold leading-10'>Enterprises</h6>
             <p className='text-sm text-gray-800 font-semibold'>
               We are working on our enterprise edition to integrate with the
-              existing crypto exchanges and custodial wallet services.
+              existing crypto exchanges and custodial wallet services in a much more scalable way.
             </p>
             <a href='mailto:hello@safient.io' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900'>

@@ -59,7 +59,7 @@ export const Cta = () => {
               <a
                 href='https://app.safient.io/'
                 target='_next'
-                className='inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md hover:text-white  bg-indigo-600 hover:bg-deep-purple-accent-100 focus:shadow-outline focus:outline-none'
+                className='bg-gradient-to-r from-purple-400 via-indigo-500 to-blue-400 inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md hover:text-white  bg-indigo-600 hover:bg-deep-purple-accent-100 focus:shadow-outline focus:outline-none'
               >
                 Get started
               </a>
