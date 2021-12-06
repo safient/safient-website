@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
       <div className='flex flex-col items-center justify-between lg:flex-row bg-white'>
-        <div className='mb-10 lg:max-w-lg lg:pr-5 lg:mb-0'>
+        <div className='mb-10 lg:max-w-lg lg:pr-5 lg:mb-0 lg:w-2/5'>
           <div className='max-w-xl mb-6'>
             <h2 className='max-w-lg mb-6 font-sans font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
               <span className=' text-5xl xl:inline'>Trustless crypto asset</span>
@@ -39,7 +39,7 @@ export const Header = () => {
             </Link>
           </div>
         </div>
-        <div className='relative lg:w-1/2'>
+        <div className='relative lg:w-3/5'>
           <img className=' w-full h-56 rounded  sm:h-96' src='/images/hero.svg' alt='crypto' />
         </div>
       </div>
