@@ -23,7 +23,7 @@ export const Header = () => {
             <Link href='https://app.safient.io/'>
               <a
                 target='_next'
-                className='bg-gradient-to-r from-purple-400 via-indigo-500 to-blue-400 inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-600 hover:bg-indigo-700 focus:shadow-outline focus:outline-none'
+                className='bg-gradient-to-r from-purple-400 via-indigo-500 to-blue-400 inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-600 hover:text-gray-900 focus:shadow-outline focus:outline-none'
               >
                 <span className='mr-3'>Try Now</span>
               </a>

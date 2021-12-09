@@ -22,7 +22,7 @@ export const Nav = () => {
             <a
               href='https://blog.safient.io'
               aria-label='Safient blog'
-              title='Safex blog'
+              title='Safient blog'
               className='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
             >
               Blog
@@ -31,7 +31,7 @@ export const Nav = () => {
           <li>
             <a
               href='https://docs.safient.io'
-              aria-label='Safex Docs'
+              aria-label='Safient Docs'
               title='Safient docs'
               class='font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-900'
             >

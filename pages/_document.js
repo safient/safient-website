@@ -14,7 +14,7 @@ class MyDocument extends Document {
 
           <meta name='robots' content='follow, index' />
           <meta
-            content='Secure crypto secret exchange and inheritance protocol'
+            content='Trustless crypto asset Safe and Inheritance Protocol'
             name='description'
           />
           <meta property='og:url' content='https://safient.io/' />
@@ -23,11 +23,11 @@ class MyDocument extends Document {
           <meta property='og:site_name' content='Safient' />
           <meta
             property='og:description'
-            content='Safex promises to securely and conveniently store any critical information that is needed to access and recover the assets in case of any tragic events. Safex also provides a trustless yet safe way to transfer and inherit the assets by close ones whenever such an unfortunate scenario occurs.'
+            content='Safient aims to provide a convenient and safe way of inheriting and safekeeping mechanism for crypto assets without exposing it to any intermediaries.'
           />
           <meta
             property='og:title'
-            content='Offical website for Safient Protocol'
+            content='Safient - Trustless crypto asset Safe and Inheritance Protocol'
           />
 
           <meta name='twitter:card' content='summary_large_image' />
@@ -46,7 +46,7 @@ class MyDocument extends Document {
           <meta name='github:site' content='https://github.com/safient' />
           <meta
             name='github:description'
-            content='Secure way to exchange and inherit #crypto secrets'
+            content='Trustless crypto asset safe and inheritance protocol'
           />
           <meta
             name='github:image'

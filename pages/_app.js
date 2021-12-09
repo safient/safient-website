@@ -5,10 +5,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Safient</title>
+        <title>Safient - Trustless crypto asset Safe and Inheritance Protocol</title>
         <meta
           name='Description'
-          content='Secure crypto secret exchange and inheritance protocol'
+          content='Trustless crypto asset Safe and Inheritance Protocol'
         />
       </Head>
 

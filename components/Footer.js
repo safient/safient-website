@@ -144,7 +144,7 @@ export const Footer = () => {
               </button>
             </form>
             <p className='mt-4 text-sm text-gray-500'>
-              Receive regular updates on work towards building better Dapps.
+              Receive regular updates on our protocol development updates.
             </p>
           </div>
         </div>
