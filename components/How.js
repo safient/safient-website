@@ -71,8 +71,7 @@ const StepFlow = ({ step = 1}) => {
           it Works?
         </h2>
         <p className='text-base text-gray-900 font-semibold md:text-lg'>
-          Safient follows three simple steps to claim or inherit the crypto
-          assets.
+          Safient follows three simple steps to claim or inherit the secrets.
         </p>
       </div>
       

@@ -20,14 +20,14 @@ export const Feature3 = () => {
           </span>{' '}
         </h2>
         <p className='text-base text-gray-700 md:text-lg'>
-          Have you ever wondered how will you pass on your{' '}
-          <b>valuable crypto assets </b> to your loved ones in case of an
+          Have you ever wondered how will you recover or pass on your{' '}
+          <b>valuable crypto assets, secret instructions </b> to your loved ones in case of an
           unfortunate event, or what happens when you no longer have access to
           your unsafe secret backup ?
           <br /> <br />
-          Worry no more, Safient will help you securely manage all the critical
-          information that is needed to access and recover the assets so that
-          your loved ones can inherit them with <b>100 % surety </b> incase of
+          Worry no more, Safient protocol will help you securely manage all the critical
+          information in a non-custodial way and help recover or inherit the assets so that
+          your loved ones have access to them with <b>100 % surety </b> incase of
           any tragic event.
         </p>
       </div>
@@ -49,10 +49,10 @@ export const Feature3 = () => {
             <img src='/FeaturesIcons/api.svg' alt='' srcset='' />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
-            Convenient Inheritance
+            Convenient Claimable Safes
           </h6>
           <p className='text-base text-gray-900'>
-            Ensure that your safes are inherited by beneficiaries only incase of tragic events.
+            The safes are accessed by the beneficiaries only after the decided claim conditions are met.
           </p>
         </div>
         <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
@@ -60,57 +60,12 @@ export const Feature3 = () => {
             <img src='/FeaturesIcons/confidential.svg' alt='' srcset='' />
           </div>
           <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
-            Trustless Recovery Protocol
+            Trustless Protocol
           </h6>
           <p className='text-base text-gray-900'>
-            The safes are protected and governed by trustless
+            The safes are protected and governed by multiple trustless
             guardians and arbitrators (Using Kleros) to ensure the highest
-            degree of resilience.
-          </p>
-        </div>
-        <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
-          <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <img src='/FeaturesIcons/dispute.svg' alt='dispuite' srcset='' width='24px' />
-          </div>
-          <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
-            Dispute Resolution
-          </h6>
-          <p className='text-base text-gray-900'>
-            Dipute resolution platform quickly resolves all the claims for inheritance of safes. Currently using{' '}
-            <a href='https://kleros.io/integrations' target='_blank'>
-              <u>Kleros court</u>
-            </a>
-            .
-          </p>
-        </div>
-        <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
-          <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <img src='/FeaturesIcons/shared.svg' alt='shared' srcset='' width='24px' />
-          </div>
-          <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
-            Share Portfolio
-          </h6>
-          <p className='text-base text-gray-900'>
-            Safient allows to share portfolio confidentially on need to know
-            basis with the beneficiaries even before the safe is recovered. Get
-            to know more{' '}
-            <a href='https://portex.xyz' target='_blank'>
-              <u>here</u>
-            </a>
-            .
-          </p>
-        </div>
-        <div className='p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2'>
-          <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50'>
-            <img src='/FeaturesIcons/decentralized.svg' alt='decentralized' width='24px' srcset='' />
-          </div>
-          <h6 className='mb-2 text-lg text-gray-900 font-semibold leading-5'>
-            Decentralization - Simplified
-          </h6>
-          <p className='text-base text-gray-900'>
-            Onboarding and using a trustless, decentralized application is
-            always intimidating. Safient makes the user experience easier than
-            ever with minimal and intuitive interactions.
+            degree of security and resilience.
           </p>
         </div>
       </div>

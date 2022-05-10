@@ -48,16 +48,15 @@ export const Cta = () => {
                   </svg>
                   <span className='relative'>Ready</span>
                 </span>{' '}
-                to dive in? checkout our community version.
+                to dive into Safient?
               </h2>
               <p className='text-base text-indigo-100 md:text-lg'>
-                Individuals can use our community version to create a safe and
-                inheritance plan right away.
+                Try our SDKs on test network or help us decentralize the network by becoming a guardian.
               </p>
             </div>
             <div>
               <a
-                href='https://app.safient.io/'
+                href='https://try.safient.io/'
                 target='_next'
                 className='bg-gradient-to-r from-purple-400 via-indigo-500 to-blue-400 inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md hover:text-white  bg-indigo-600 hover:bg-deep-purple-accent-100 focus:shadow-outline focus:outline-none'
               >

@@ -57,12 +57,11 @@ export const DevResources = () => {
             </div>
             <h6 className='mb-2 font-semibold leading-10'>Individuals</h6>
             <p className='text-sm text-gray-800 font-semibold'>
-              Individuals can use our community edition to create safes and
-              inheritance plans right away.
+              We are working on a variety of non custodial crypto assets recovery and inheritance services on top of Safient protocol such as Safient Wallet and Safient Safes.
             </p>
-            <a href='https://app.safient.io' target='_blank'>
+            <a href='https://wallet.safient.io/gm' target='_blank'>
               <p className=' py-2 text-base leading-6 text-indigo-700 text-gray-900 '>
-                Checkout the community edition
+                Checkout Safient Wallet
               </p>
             </a>
           </div>

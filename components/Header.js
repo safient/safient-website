@@ -7,8 +7,8 @@ export const Header = () => {
         <div className='mb-10 lg:max-w-lg lg:pr-5 lg:mb-0 lg:w-2/5'>
           <div className='max-w-xl mb-6'>
             <h2 className='max-w-lg mb-6 font-sans font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
-              <span className=' text-5xl xl:inline'>Trustless crypto asset</span>
-              <span className=' text-5xl text-gradient bg-gradient-to-r from-purple-400 via-indigo-500 to-blue-400 xl:inline'> Safe </span>
+              <span className=' text-5xl xl:inline'>Non-custodial secret</span>
+              <span className=' text-5xl text-gradient bg-gradient-to-r from-purple-400 via-indigo-500 to-blue-400 xl:inline'> Recovery </span>
               <span className=' text-5xl xl:inline'>and</span>
               <span className='text-5xl text-gradient bg-gradient-to-r from-purple-400 via-indigo-500 to-blue-400 xl:inline'> Inheritance </span>
               <span className=' text-5xl xl:inline'>Protocol</span>
@@ -20,7 +20,7 @@ export const Header = () => {
             </p>
           </div>
           <div className='flex flex-col items-center md:flex-row'>
-            <Link href='https://app.safient.io/'>
+            <Link href='https://try.safient.io/'>
               <a
                 target='_next'
                 className='bg-gradient-to-r from-purple-400 via-indigo-500 to-blue-400 inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-600 hover:text-gray-900 focus:shadow-outline focus:outline-none'
