@@ -14,7 +14,7 @@ class MyDocument extends Document {
 
           <meta name='robots' content='follow, index' />
           <meta
-            content='Trustless crypto asset Safe and Inheritance Protocol'
+            content='Non-custodial crypto asset Recovery and Inheritance Protocol'
             name='description'
           />
           <meta property='og:url' content='https://safient.io/' />
@@ -27,7 +27,7 @@ class MyDocument extends Document {
           />
           <meta
             property='og:title'
-            content='Safient - Trustless crypto asset Safe and Inheritance Protocol'
+            content='Safient - Non-custodial secret Recovery and Inheritance Protocol'
           />
 
           <meta name='twitter:card' content='summary_large_image' />
@@ -46,7 +46,7 @@ class MyDocument extends Document {
           <meta name='github:site' content='https://github.com/safient' />
           <meta
             name='github:description'
-            content='Trustless crypto asset safe and inheritance protocol'
+            content='Non-custodial crypto asset Recovery and Inheritance Protocol'
           />
           <meta
             name='github:image'

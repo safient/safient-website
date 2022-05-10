@@ -4,7 +4,16 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className='px-4  py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-5 sticky top-0 z-50 text-white bg-gradient-to-r from-purple-400 via-indigo-500 to-blue-400'>
+
+    <div>
+    <div className='flex justify-center  px-4  py-2 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-5 sticky top-0 z-50 text-white bg-indigo-500'>
+    <p>
+        We built 
+    <a href="https://wallet.safient.io/gm" target='_blank' class="underline decoration-sky-500"> Safient Wallet </a> on top of the Safient protocol at ETHDenver 2022, a non-custodial claimable web wallet. Checkout this quick <a href="https://ethdenver.safient.io" target='_blank' class="underline decoration-sky-500"> demo here </a>.
+  </p>
+    </div>
+       <div className='px-4  py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-5 sticky top-0 z-50 text-white bg-gradient-to-r from-purple-400 via-indigo-500 to-blue-400'>
+      
       <div className='relative flex items-center justify-between  mx-auto lg:mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl  lg:px-8 sticky  '>
         <img src='/logo.svg' alt='logo' width='110px' />
         <ul className='flex items-center hidden space-x-8 lg:flex'>
@@ -50,12 +59,12 @@ export const Nav = () => {
           </li>
           <li>
             <a
-              href='http://app.safient.io/'
+              href='http://try.safient.io/'
               className='bg-gradient-to-r from-purple-500 to-indigo-500 inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md hover:bg-gray-100 hover:text-gray-900 focus:shadow-outline focus:outline-none'
               aria-label='app'
               title='App'
             >
-              App
+              Try Now
             </a>
           </li>
         </ul>
@@ -147,7 +156,7 @@ export const Nav = () => {
 
                     <li>
                       <a
-                        href='https://app.safient.io'
+                        href='https://try.safient.io'
                         className='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-600 hover:bg-indigo-600 focus:shadow-outline focus:outline-none'
                         aria-label='Sign up'
                         title='Sign up'
@@ -162,6 +171,7 @@ export const Nav = () => {
           )}
         </div>
       </div>
+    </div>
     </div>
   );
 };
